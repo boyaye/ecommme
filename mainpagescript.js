@@ -1,6 +1,6 @@
 
 var myfirstimageslide = document.querySelectorAll(".slideshow")
-console.log(myfirstimageslide)
+
 
 
 var firstslideindex = 0;
@@ -21,7 +21,7 @@ function firstslidefunction(){
     setTimeout(firstslidefunction,2000) 
 }
 firstslidefunction()
-console.log(firstslidefunction)
+
 
 var secondslideindex = 0
 
