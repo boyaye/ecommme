@@ -17,6 +17,40 @@
         background-color: rgb(240, 125, 48);
     }
 
+    .navdiv{
+        background-color: rgb(240, 125, 48);  
+        display: flex;
+        justify-content:space-between;
+        padding: 10px 10px 0px 10px;
+        font-size: 20px;
+    }
+
+    .sectiontwonavbar{
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        font-family:Arial, Helvetica, sans-serif;
+      
+    }
+
+    #addcartvalue{
+        position: relative;
+        bottom: 10px;
+        right: 10px;
+        background-color: rgb(102, 50, 7);
+        color: white;
+        padding: 2px 5px 2px 5px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .navdiv a{
+        text-decoration: none;
+        color: white;
+    }
+    #signinglinkdiv{
+        font-size: 13px;
+    }
+
     #secondheaderdiv-second,
  .siginginfodiv,
  .thirdheader,
@@ -257,7 +291,7 @@ width: 80%;
 
 .secondcarolelistdisplace{
  width: 98%;
- border: 1px solid black;
+ border: 0px solid black;
  display: flex;
  margin: 20px auto;
 
@@ -273,10 +307,10 @@ margin-left: -40px;
 
 }
 #firstsectionol{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black; 
+    border: 0px solid black; 
 
 }
 
@@ -289,7 +323,9 @@ margin-left: -40px;
 }
 
 #secondsection{
-    border: 1px solid rgb(252, 6, 6);
+    position: relative;
+    top: 20px;
+    border: 1px solid rgb(202, 198, 198);
     height: 200px;
     z-index: -1;
 }
@@ -346,6 +382,7 @@ margin-left: -40px;
     text-decoration: none;
 }
 }
+
 @media screen and (max-width: 414px) {
     *{
 
@@ -362,6 +399,39 @@ margin-left: -40px;
         width: 100%;
       padding: 10px 0 10px 0;
         background-color: rgb(240, 125, 48);
+    }
+    .navdiv{
+        background-color: rgb(240, 125, 48);  
+        display: flex;
+        justify-content:space-between;
+        padding: 10px 10px 0px 10px;
+        font-size: 20px;
+    }
+
+    .sectiontwonavbar{
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        font-family:Arial, Helvetica, sans-serif;
+      
+    }
+
+    #addcartvalue{
+        position: relative;
+        bottom: 10px;
+        right: 10px;
+        background-color: rgb(102, 50, 7);
+        color: white;
+        padding: 2px 5px 2px 5px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .navdiv a{
+        text-decoration: none;
+        color: white;
+    }
+    #signinglinkdiv{
+        font-size: 13px;
     }
 
     #secondheaderdiv-second,
@@ -711,7 +781,39 @@ margin-left: -40px;
       padding: 10px 0 10px 0;
         background-color: rgb(240, 125, 48);
     }
+    .navdiv{
+        background-color: rgb(240, 125, 48);  
+        display: flex;
+        justify-content:space-between;
+        padding: 10px 10px 0px 10px;
+        font-size: 20px;
+    }
 
+    .sectiontwonavbar{
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        font-family:Arial, Helvetica, sans-serif;
+      
+    }
+
+    #addcartvalue{
+        position: relative;
+        bottom: 10px;
+        right: 10px;
+        background-color: rgb(102, 50, 7);
+        color: white;
+        padding: 2px 5px 2px 5px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .navdiv a{
+        text-decoration: none;
+        color: white;
+    }
+    #signinglinkdiv{
+        font-size: 13px;
+    }
     #secondheaderdiv-second,
  .siginginfodiv,
  .thirdheader,
@@ -1057,6 +1159,39 @@ margin-left: -40px;
         width: 100%;
       padding: 10px 0 10px 0;
         background-color: rgb(240, 125, 48);
+    }
+    .navdiv{
+        background-color: rgb(240, 125, 48);  
+        display: flex;
+        justify-content:space-between;
+        padding: 10px 10px 0px 10px;
+        font-size: 20px;
+    }
+
+    .sectiontwonavbar{
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        font-family:Arial, Helvetica, sans-serif;
+      
+    }
+
+    #addcartvalue{
+        position: relative;
+        bottom: 10px;
+        right: 10px;
+        background-color: rgb(102, 50, 7);
+        color: white;
+        padding: 2px 5px 2px 5px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .navdiv a{
+        text-decoration: none;
+        color: white;
+    }
+    #signinglinkdiv{
+        font-size: 13px;
     }
 
     #secondheaderdiv-second,
