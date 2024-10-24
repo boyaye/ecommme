@@ -382,7 +382,6 @@ margin-left: -40px;
     text-decoration: none;
 }
 }
-
 @media screen and (max-width: 414px) {
     *{
 
@@ -400,6 +399,7 @@ margin-left: -40px;
       padding: 10px 0 10px 0;
         background-color: rgb(240, 125, 48);
     }
+
     .navdiv{
         background-color: rgb(240, 125, 48);  
         display: flex;
@@ -672,6 +672,1122 @@ width: 80%;
 
 /* discount collection */
 
+.secondcarolelistdisplace{
+ width: 98%;
+ border: 0px solid black;
+ display: flex;
+ margin: 20px auto;
+
+}
+
+.sectionone{
+    width: 50%;
+}
+#firstsectionol li{
+width: 100%;
+margin-left: -40px;
+
+
+}
+#firstsectionol{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px solid black; 
+
+}
+
+.secondcarolelistdisplace img{
+    width: 100%;
+}
+
+.secondcarolelistdisplace li{
+    list-style: none;
+}
+
+#secondsection{
+    position: relative;
+    top: 20px;
+    border: 1px solid rgb(202, 198, 198);
+    height: 200px;
+    z-index: -1;
+}
+#secondsection li{
+    height: 200px;
+    width: 100%;
+    margin-left: -40px;
+    padding: 0px 40px 0px 0px;
+   
+}
+
+#secondsidelistimage{
+    background-image: url("./firstslide.png");
+
+
+
+}
+#secondsidelistimagetwo{
+    background-image: url("./mens\ pics.webp");
+  
+
+}
+#secondsidelistimagethree{
+    background-image: url("./carpart.png");
+   
+
+}
+#secondsidelistimagefour{
+    background-image: url("./sweater.png");
+   
+
+}
+#secondsidelistimagefive{
+    background-image: url("./kidswear.png");
+   
+
+}
+
+.bestsellertwo li{
+    list-style: none;
+
+}
+.bestsellertwo ol{
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+}
+.bestsellertwo .fa-star,
+.customerreview{
+    display: none;
+}
+.bestsellertwo a{
+    text-decoration: none;
+}
+}
+@media screen and (max-width: 390px) {
+    *{
+
+        margin: 0;
+        width: 1005;
+    }
+    body{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    .firstheader{
+        width: 100%;
+      padding: 10px 0 10px 0;
+        background-color: rgb(240, 125, 48);
+    }
+
+    .navdiv{
+        background-color: rgb(240, 125, 48);  
+        display: flex;
+        justify-content:space-between;
+        padding: 10px 10px 0px 10px;
+        font-size: 20px;
+    }
+
+    .sectiontwonavbar{
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        font-family:Arial, Helvetica, sans-serif;
+      
+    }
+
+    #addcartvalue{
+        position: relative;
+        bottom: 10px;
+        right: 10px;
+        background-color: rgb(102, 50, 7);
+        color: white;
+        padding: 2px 5px 2px 5px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .navdiv a{
+        text-decoration: none;
+        color: white;
+    }
+    #signinglinkdiv{
+        font-size: 13px;
+    }
+
+    #secondheaderdiv-second,
+ .siginginfodiv,
+ .thirdheader,
+    .locationdiv,
+    #optionselectdive ,
+     #countryselect ,
+      .logodive{
+        display: none;
+    }
+    #searchitembar{
+        display: flex;
+        width: 90%;
+        padding: 9px;
+    margin: auto;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+
+    }
+    .secondheader .secondheaderdiv{
+        display: flex;
+        gap: 22px;
+        cursor: pointer; 
+        overflow: auto;
+        white-space: nowrap;
+        width: 96.8%;
+        padding: 10px 7px 10px 5px;
+        background-color: rgb(67, 110, 129);
+        color:white;
+        font-size: 12px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .secondheader .secondheaderdiv li{
+        list-style: none;
+    }
+.slideshowme{
+    width: 100%;
+    height: 200px;
+}
+#first-imagediv{
+    background-image: url("./@media1.png");
+ 
+background-size:cover;
+    border-radius: 5px;
+    margin: 5px auto;
+    border: 0px solid black;
+height: 200px;
+   width: 100%;
+ 
+}#second-imagediv{
+    background-image: url("./@media2.png");
+background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 5px auto;
+    border: 0px solid black;
+height: 200px;
+   width: 100%;
+}
+#third-imagediv{
+    background-image: url("./@media3.png");
+background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 5px auto;
+    border: 0px solid black;
+height: 200px;
+   width: 100%;
+ 
+
+}
+#four-imagediv{
+    background-image: url("./@media4.png");
+background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 5px auto;
+    border: 0px solid black;
+height: 200px;
+   width: 100%;
+ 
+
+}
+#five-imagediv{
+    background-image: url("./@media5.png");
+    background-repeat: no-repeat;
+        border-radius: 5px;
+        margin: 5px auto;
+        border: 0px solid black;
+    height: 200px;
+       width: 100%;
+}
+#quickdeals{
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+#quickdeals h1{
+    background-color: rgb(67, 110, 129);
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(233, 158, 130);
+    padding: 3PX;
+}
+
+.bestseller ol{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    gap: 20px;
+    height: 240px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.bestseller li{
+    border: 1px solid rgb(241, 237, 237);
+    height: auto;
+    width: 170px;
+    text-align: center;
+    padding: 0;
+    line-height: 17px;
+    border-radius: 10px;
+    list-style: none;
+} 
+.bestseller a {
+    text-decoration: none;
+}
+.bestsellerlasit img{
+    position: relative;
+    top: -30px;
+height: 160px;
+padding: 4px;
+border-radius: 10px;
+}
+.bestsellerlasit .fa-star{
+    color: gold;
+    font-size: 10p 
+    ;
+}
+.deliverydiv{
+   display: none;
+ 
+}
+
+.fa-heart{
+    position: relative;
+    padding:3px;
+    font-size: 14px;
+    color: rgb(94, 82, 82);
+   }
+.addtocart{  
+    z-index: 1; 
+    margin-top: 0;
+position: relative;
+border-radius:17px;
+width: 22px;
+background-color: rgb(244, 245, 247);
+  
+    border: 1px solid rgb(185, 181, 181);
+}
+
+.ratinginfo{
+padding:  0px 5px 0 5px;
+    margin-top: -28px;
+    color: rgb(34, 30, 30);  
+}
+#pricetag{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+  color: rgb(226, 87, 37);
+}
+/*get it done 50% discount*/
+
+.shoppercentage{
+width: 90%;
+    border: 1px solid rgb(241, 234, 234);
+    margin: 10px auto;
+    display: flex;
+    border-radius: 10px;
+    font-size: 13px;
+    line-height: 12px;
+    padding: 5px;
+    background-color:  rgb(226, 87, 37);
+}
+.shoppercentage h3{
+    color: white;
+}
+.shoppercentage button{
+    border-radius: 10px;
+    border: none;
+    line-height: 12px;
+    padding: 5px;
+    color: rgb(231, 228, 228);
+    background-color: black;
+}
+
+/* shop by collection */
+
+.secondlistitem h1{
+    font-size: 20px;
+    text-align: center;
+}
+.newarriverlist{
+width: 80%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    border: 0px solid rgb(26, 25, 25);
+    height: 200px;
+    overflow: auto;
+    white-space: nowrap;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+ 
+  
+ 
+}
+.newarriverlist img{
+    width: 100%;
+    border-radius: 50px;   
+}
+.secondlistitem .newarriverlist li{
+  
+    list-style: none;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    margin-left: -10px;
+}
+.secondlistitem .newarriverlist a{
+    text-decoration: none;
+    color: rgb(54, 51, 51);
+}
+
+/* discount collection */
+
+.secondcarolelistdisplace{
+ width: 98%;
+ border: 0px solid black;
+ display: flex;
+ margin: 20px auto;
+
+}
+
+.sectionone{
+    width: 50%;
+}
+#firstsectionol li{
+width: 100%;
+margin-left: -40px;
+
+
+}
+#firstsectionol{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px solid black; 
+
+}
+
+.secondcarolelistdisplace img{
+    width: 100%;
+}
+
+.secondcarolelistdisplace li{
+    list-style: none;
+}
+
+#secondsection{
+    position: relative;
+    top: 20px;
+    border: 1px solid rgb(202, 198, 198);
+    height: 200px;
+    z-index: -1;
+}
+#secondsection li{
+    height: 200px;
+    width: 100%;
+    margin-left: -40px;
+    padding: 0px 40px 0px 0px;
+   
+}
+
+#secondsidelistimage{
+    background-image: url("./firstslide.png");
+
+
+
+}
+#secondsidelistimagetwo{
+    background-image: url("./mens\ pics.webp");
+  
+
+}
+#secondsidelistimagethree{
+    background-image: url("./carpart.png");
+   
+
+}
+#secondsidelistimagefour{
+    background-image: url("./sweater.png");
+   
+
+}
+#secondsidelistimagefive{
+    background-image: url("./kidswear.png");
+   
+
+}
+
+.bestsellertwo li{
+    list-style: none;
+
+}
+.bestsellertwo ol{
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+}
+.bestsellertwo .fa-star,
+.customerreview{
+    display: none;
+}
+.bestsellertwo a{
+    text-decoration: none;
+}
+}
+@media screen and (max-width: 430px) {
+    *{
+
+        margin: 0;
+        width: 1005;
+    }
+    body{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    .firstheader{
+        width: 100%;
+      padding: 10px 0 10px 0;
+        background-color: rgb(240, 125, 48);
+    }
+
+    .navdiv{
+        background-color: rgb(240, 125, 48);  
+        display: flex;
+        justify-content:space-between;
+        padding: 10px 10px 0px 10px;
+        font-size: 20px;
+    }
+
+    .sectiontwonavbar{
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        font-family:Arial, Helvetica, sans-serif;
+      
+    }
+
+    #addcartvalue{
+        position: relative;
+        bottom: 10px;
+        right: 10px;
+        background-color: rgb(102, 50, 7);
+        color: white;
+        padding: 2px 5px 2px 5px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .navdiv a{
+        text-decoration: none;
+        color: white;
+    }
+    #signinglinkdiv{
+        font-size: 13px;
+    }
+
+    #secondheaderdiv-second,
+ .siginginfodiv,
+ .thirdheader,
+    .locationdiv,
+    #optionselectdive ,
+     #countryselect ,
+      .logodive{
+        display: none;
+    }
+    #searchitembar{
+        display: flex;
+        width: 90%;
+        padding: 9px;
+    margin: auto;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+
+    }
+    .secondheader .secondheaderdiv{
+        display: flex;
+        gap: 22px;
+        cursor: pointer; 
+        overflow: auto;
+        white-space: nowrap;
+        width: 96.8%;
+        padding: 10px 7px 10px 5px;
+        background-color: rgb(67, 110, 129);
+        color:white;
+        font-size: 12px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .secondheader .secondheaderdiv li{
+        list-style: none;
+    }
+.slideshowme{
+    width: 100%;
+    height: 200px;
+}
+#first-imagediv{
+    background-image: url("./@media1.png");
+ 
+background-size:cover;
+    border-radius: 5px;
+    margin: 5px auto;
+    border: 0px solid black;
+height: 200px;
+   width: 100%;
+ 
+}#second-imagediv{
+    background-image: url("./@media2.png");
+background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 5px auto;
+    border: 0px solid black;
+height: 200px;
+   width: 100%;
+}
+#third-imagediv{
+    background-image: url("./@media3.png");
+background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 5px auto;
+    border: 0px solid black;
+height: 200px;
+   width: 100%;
+ 
+
+}
+#four-imagediv{
+    background-image: url("./@media4.png");
+background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 5px auto;
+    border: 0px solid black;
+height: 200px;
+   width: 100%;
+ 
+
+}
+#five-imagediv{
+    background-image: url("./@media5.png");
+    background-repeat: no-repeat;
+        border-radius: 5px;
+        margin: 5px auto;
+        border: 0px solid black;
+    height: 200px;
+       width: 100%;
+}
+#quickdeals{
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+#quickdeals h1{
+    background-color: rgb(67, 110, 129);
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(233, 158, 130);
+    padding: 3PX;
+}
+
+.bestseller ol{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    gap: 20px;
+    height: 240px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.bestseller li{
+    border: 1px solid rgb(241, 237, 237);
+    height: auto;
+    width: 170px;
+    text-align: center;
+    padding: 0;
+    line-height: 17px;
+    border-radius: 10px;
+    list-style: none;
+} 
+.bestseller a {
+    text-decoration: none;
+}
+.bestsellerlasit img{
+    position: relative;
+    top: -30px;
+height: 160px;
+padding: 4px;
+border-radius: 10px;
+}
+.bestsellerlasit .fa-star{
+    color: gold;
+    font-size: 10p 
+    ;
+}
+.deliverydiv{
+   display: none;
+ 
+}
+
+.fa-heart{
+    position: relative;
+    padding:3px;
+    font-size: 14px;
+    color: rgb(94, 82, 82);
+   }
+.addtocart{  
+    z-index: 1; 
+    margin-top: 0;
+position: relative;
+border-radius:17px;
+width: 22px;
+background-color: rgb(244, 245, 247);
+  
+    border: 1px solid rgb(185, 181, 181);
+}
+
+.ratinginfo{
+padding:  0px 5px 0 5px;
+    margin-top: -28px;
+    color: rgb(34, 30, 30);  
+}
+#pricetag{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+  color: rgb(226, 87, 37);
+}
+/*get it done 50% discount*/
+
+.shoppercentage{
+width: 90%;
+    border: 1px solid rgb(241, 234, 234);
+    margin: 10px auto;
+    display: flex;
+    border-radius: 10px;
+    font-size: 13px;
+    line-height: 12px;
+    padding: 5px;
+    background-color:  rgb(226, 87, 37);
+}
+.shoppercentage h3{
+    color: white;
+}
+.shoppercentage button{
+    border-radius: 10px;
+    border: none;
+    line-height: 12px;
+    padding: 5px;
+    color: rgb(231, 228, 228);
+    background-color: black;
+}
+
+/* shop by collection */
+
+.secondlistitem h1{
+    font-size: 20px;
+    text-align: center;
+}
+.newarriverlist{
+width: 80%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    border: 0px solid rgb(26, 25, 25);
+    height: 200px;
+    overflow: auto;
+    white-space: nowrap;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+ 
+  
+ 
+}
+.newarriverlist img{
+    width: 100%;
+    border-radius: 50px;   
+}
+.secondlistitem .newarriverlist li{
+  
+    list-style: none;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    margin-left: -10px;
+}
+.secondlistitem .newarriverlist a{
+    text-decoration: none;
+    color: rgb(54, 51, 51);
+}
+
+/* discount collection */
+
+.secondcarolelistdisplace{
+ width: 98%;
+ border: 0px solid black;
+ display: flex;
+ margin: 20px auto;
+
+}
+
+.sectionone{
+    width: 50%;
+}
+#firstsectionol li{
+width: 100%;
+margin-left: -40px;
+
+
+}
+#firstsectionol{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px solid black; 
+
+}
+
+.secondcarolelistdisplace img{
+    width: 100%;
+}
+
+.secondcarolelistdisplace li{
+    list-style: none;
+}
+
+#secondsection{
+    position: relative;
+    top: 20px;
+    border: 1px solid rgb(202, 198, 198);
+    height: 200px;
+    z-index: -1;
+}
+#secondsection li{
+    height: 200px;
+    width: 100%;
+    margin-left: -40px;
+    padding: 0px 40px 0px 0px;
+   
+}
+
+#secondsidelistimage{
+    background-image: url("./firstslide.png");
+
+
+
+}
+#secondsidelistimagetwo{
+    background-image: url("./mens\ pics.webp");
+  
+
+}
+#secondsidelistimagethree{
+    background-image: url("./carpart.png");
+   
+
+}
+#secondsidelistimagefour{
+    background-image: url("./sweater.png");
+   
+
+}
+#secondsidelistimagefive{
+    background-image: url("./kidswear.png");
+   
+
+}
+
+.bestsellertwo li{
+    list-style: none;
+
+}
+.bestsellertwo ol{
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+}
+.bestsellertwo .fa-star,
+.customerreview{
+    display: none;
+}
+.bestsellertwo a{
+    text-decoration: none;
+}
+}
+/*
+@media screen and (max-width: 414px) {
+    *{
+
+        margin: 0;
+        width: 1005;
+    }
+    body{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    .firstheader{
+        width: 100%;
+      padding: 10px 0 10px 0;
+        background-color: rgb(240, 125, 48);
+    }
+
+    #secondheaderdiv-second,
+ .siginginfodiv,
+ .thirdheader,
+    .locationdiv,
+    #optionselectdive ,
+     #countryselect ,
+      .logodive{
+        display: none;
+    }
+    #searchitembar{
+        display: flex;
+        width: 90%;
+        padding: 9px;
+    margin: auto;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+
+    }
+    .secondheader .secondheaderdiv{
+        display: flex;
+        gap: 22px;
+        cursor: pointer; 
+        overflow: auto;
+        white-space: nowrap;
+        width: 96.8%;
+        padding: 10px 7px 10px 5px;
+        background-color: rgb(67, 110, 129);
+        color:white;
+        font-size: 12px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .secondheader .secondheaderdiv li{
+        list-style: none;
+    }
+.slideshowme{
+    width: 100%;
+    height: 200px;
+}
+#first-imagediv{
+    background-image: url("./@media1.png");
+ 
+background-size:cover;
+    border-radius: 5px;
+    margin: 5px auto;
+    border: 0px solid black;
+height: 200px;
+   width: 100%;
+ 
+}#second-imagediv{
+    background-image: url("./@media2.png");
+background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 5px auto;
+    border: 0px solid black;
+height: 200px;
+   width: 100%;
+}
+#third-imagediv{
+    background-image: url("./@media3.png");
+background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 5px auto;
+    border: 0px solid black;
+height: 200px;
+   width: 100%;
+ 
+
+}
+#four-imagediv{
+    background-image: url("./@media4.png");
+background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 5px auto;
+    border: 0px solid black;
+height: 200px;
+   width: 100%;
+ 
+
+}
+#five-imagediv{
+    background-image: url("./@media5.png");
+    background-repeat: no-repeat;
+        border-radius: 5px;
+        margin: 5px auto;
+        border: 0px solid black;
+    height: 200px;
+       width: 100%;
+}
+#quickdeals{
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+#quickdeals h1{
+    background-color: rgb(67, 110, 129);
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(233, 158, 130);
+    padding: 3PX;
+}
+
+.bestseller ol{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    gap: 20px;
+    height: 240px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.bestseller li{
+    border: 1px solid rgb(241, 237, 237);
+    height: auto;
+    width: 170px;
+    text-align: center;
+    padding: 0;
+    line-height: 17px;
+    border-radius: 10px;
+    list-style: none;
+} 
+.bestseller a {
+    text-decoration: none;
+}
+.bestsellerlasit img{
+    position: relative;
+    top: -30px;
+height: 160px;
+padding: 4px;
+border-radius: 10px;
+}
+.bestsellerlasit .fa-star{
+    color: gold;
+    font-size: 10p 
+    ;
+}
+.deliverydiv{
+   display: none;
+ 
+}
+
+.fa-heart{
+    position: relative;
+    padding:3px;
+    font-size: 14px;
+    color: rgb(94, 82, 82);
+   }
+.addtocart{  
+    z-index: 1; 
+    margin-top: 0;
+position: relative;
+border-radius:17px;
+width: 22px;
+background-color: rgb(244, 245, 247);
+  
+    border: 1px solid rgb(185, 181, 181);
+}
+
+.ratinginfo{
+padding:  0px 5px 0 5px;
+    margin-top: -28px;
+    color: rgb(34, 30, 30);  
+}
+#pricetag{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+  color: rgb(226, 87, 37);
+}
+/*get it done 50% discount*/
+/*
+.shoppercentage{
+width: 90%;
+    border: 1px solid rgb(241, 234, 234);
+    margin: 10px auto;
+    display: flex;
+    border-radius: 10px;
+    font-size: 13px;
+    line-height: 12px;
+    padding: 5px;
+    background-color:  rgb(226, 87, 37);
+}
+.shoppercentage h3{
+    color: white;
+}
+.shoppercentage button{
+    border-radius: 10px;
+    border: none;
+    line-height: 12px;
+    padding: 5px;
+    color: rgb(231, 228, 228);
+    background-color: black;
+}
+
+/* shop by collection */
+/*
+.secondlistitem h1{
+    font-size: 20px;
+    text-align: center;
+}
+.newarriverlist{
+width: 80%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    border: 0px solid rgb(26, 25, 25);
+    height: 200px;
+    overflow: auto;
+    white-space: nowrap;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+ 
+  
+ 
+}
+.newarriverlist img{
+    width: 100%;
+    border-radius: 50px;   
+}
+.secondlistitem .newarriverlist li{
+  
+    list-style: none;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    margin-left: -10px;
+}
+.secondlistitem .newarriverlist a{
+    text-decoration: none;
+    color: rgb(54, 51, 51);
+}
+
+/* discount collection */
+/*
 .secondcarolelistdisplace{
  width: 98%;
  border: 1px solid black;
@@ -781,39 +1897,7 @@ margin-left: -40px;
       padding: 10px 0 10px 0;
         background-color: rgb(240, 125, 48);
     }
-    .navdiv{
-        background-color: rgb(240, 125, 48);  
-        display: flex;
-        justify-content:space-between;
-        padding: 10px 10px 0px 10px;
-        font-size: 20px;
-    }
 
-    .sectiontwonavbar{
-        display: flex;
-        gap: 10px;
-        flex-direction: row;
-        font-family:Arial, Helvetica, sans-serif;
-      
-    }
-
-    #addcartvalue{
-        position: relative;
-        bottom: 10px;
-        right: 10px;
-        background-color: rgb(102, 50, 7);
-        color: white;
-        padding: 2px 5px 2px 5px;
-        font-size: 10px;
-        border-radius: 5px;
-    }
-    .navdiv a{
-        text-decoration: none;
-        color: white;
-    }
-    #signinglinkdiv{
-        font-size: 13px;
-    }
     #secondheaderdiv-second,
  .siginginfodiv,
  .thirdheader,
@@ -987,7 +2071,7 @@ padding:  0px 5px 0 5px;
   color: rgb(226, 87, 37);
 }
 /*get it done 50% discount*/
-
+/*
 .shoppercentage{
 width: 90%;
     border: 1px solid rgb(241, 234, 234);
@@ -1012,7 +2096,7 @@ width: 90%;
 }
 
 /* shop by collection */
-
+/*
 .secondlistitem h1{
     font-size: 20px;
     text-align: center;
@@ -1051,7 +2135,7 @@ width: 80%;
 }
 
 /* discount collection */
-
+/*
 .secondcarolelistdisplace{
  width: 98%;
  border: 1px solid black;
@@ -1160,39 +2244,6 @@ margin-left: -40px;
       padding: 10px 0 10px 0;
         background-color: rgb(240, 125, 48);
     }
-    .navdiv{
-        background-color: rgb(240, 125, 48);  
-        display: flex;
-        justify-content:space-between;
-        padding: 10px 10px 0px 10px;
-        font-size: 20px;
-    }
-
-    .sectiontwonavbar{
-        display: flex;
-        gap: 10px;
-        flex-direction: row;
-        font-family:Arial, Helvetica, sans-serif;
-      
-    }
-
-    #addcartvalue{
-        position: relative;
-        bottom: 10px;
-        right: 10px;
-        background-color: rgb(102, 50, 7);
-        color: white;
-        padding: 2px 5px 2px 5px;
-        font-size: 10px;
-        border-radius: 5px;
-    }
-    .navdiv a{
-        text-decoration: none;
-        color: white;
-    }
-    #signinglinkdiv{
-        font-size: 13px;
-    }
 
     #secondheaderdiv-second,
  .siginginfodiv,
@@ -1367,7 +2418,7 @@ padding:  0px 5px 0 5px;
   color: rgb(226, 87, 37);
 }
 /*get it done 50% discount*/
-
+/*
 .shoppercentage{
 width: 90%;
     border: 1px solid rgb(241, 234, 234);
@@ -1392,7 +2443,7 @@ width: 90%;
 }
 
 /* shop by collection */
-
+/*
 .secondlistitem h1{
     font-size: 20px;
     text-align: center;
@@ -1431,7 +2482,7 @@ width: 80%;
 }
 
 /* discount collection */
-
+/*
 .secondcarolelistdisplace{
  width: 98%;
  border: 1px solid black;
@@ -1522,4 +2573,4 @@ margin-left: -40px;
 .bestsellertwo a{
     text-decoration: none;
 }
-}
+}*/
