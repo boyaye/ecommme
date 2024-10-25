@@ -127,6 +127,7 @@
 
     .firstlocationdiv button{
         position: relative;
+        font-weight: bolder;
         right: 10px;
         border-radius: 5px;
         border: none;
@@ -193,6 +194,8 @@ height: 200px;
     height: 200px;
        width: 100%;
 }
+
+/* quick deal */
 #quickdeals{
     font-size: 10px;
     text-align: center;
@@ -253,7 +256,7 @@ border-radius: 10px;
     position: relative;
     padding:3px;
     font-size: 14px;
-    color: rgb(94, 82, 82);
+    color: rgb(241, 106, 52);
    }
 .addtocart{  
     z-index: 1; 
