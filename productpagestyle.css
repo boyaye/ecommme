@@ -159,3 +159,491 @@ background-color: rgb(190, 187, 187);
   box-shadow: 0px 2px 3px 0px  gray;
     }
 }
+
+@media screen and (max-width:414px) {
+    *{
+        margin: 0;
+    }
+        body{
+            width: 100%;
+        }
+        main{
+            width: 100%;
+        }
+        .firstheader{
+            width: 100%;
+          padding: 10px 0 10px 0;
+            background-color: rgb(240, 125, 48);
+        }
+       
+        .navdiv{
+            background-color: rgb(240, 125, 48);  
+            display: flex;
+            justify-content:space-between;
+            padding: 10px 10px 0px 10px;
+            font-size: 20px;
+        }
+        .secondheader{
+            display: none;
+        }
+        
+        .sectiontwonavbar{
+            display: flex;
+            gap: 10px;
+            flex-direction: row;
+            font-family:Arial, Helvetica, sans-serif;
+          
+        }
+        
+        #addcartvalue{
+            position: relative;
+            bottom: 10px;
+            right: 10px;
+            background-color: rgb(102, 50, 7);
+            color: white;
+            padding: 2px 5px 2px 5px;
+            font-size: 10px;
+            border-radius: 5px;
+        }
+        .navdiv a{
+            text-decoration: none;
+            color: white;
+        }
+        #signinglinkdiv{
+            font-size: 13px;
+        }
+        
+        #secondheaderdiv-second,
+        .siginginfodiv,
+        .thirdheader,
+        .locationdiv,
+        #optionselectdive ,
+         #countryselect ,
+          .logodive{
+            display: none;
+        }
+        #searchitembar{
+            display: flex;
+            width: 90%;
+            padding: 9px;
+        margin: auto;
+        border: none;
+        border-radius: 6px;
+        font-size: 12px;
+        
+        }
+        .secondheader .secondheaderdiv{
+            display: flex;
+            gap: 22px;
+            cursor: pointer; 
+            overflow: auto;
+            white-space: nowrap;
+            width: 96.8%;
+            padding: 10px 7px 10px 5px;
+            background-color: rgb(67, 110, 129);
+            color:white;
+            font-size: 12px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .secondheader .secondheaderdiv li{
+            list-style: none;
+           padding: 4px;
+            
+        }
+        /* location update with signing */
+        .locationupdate {
+            
+            background-color:rgb(67, 110, 129);
+            width: 100%;
+            
+        }
+        .firstlocationdiv{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin:  auto;
+            font-family: Arial, Helvetica, sans-serif;
+         width: 98%;
+            padding: 5px 0px 5px 0px;
+            border-top: 1px solid rgb(240, 144, 99); 
+        }
+        .firstlocationdiv a{
+            display: flex;
+            gap: 5px;
+            width: 90%;
+            border: 0px black solid;
+            text-decoration: none;
+            color: white;
+        word-spacing: -1.5px;
+        }
+        
+        #citylocation{
+            font-size: 13px;
+        }
+        
+        .fa-caret-down{
+            position: relative;
+            left: 3px;
+            top: 1px;
+        }
+        
+        .firstlocationdiv button{
+            display: none;
+            position: relative;
+            font-weight: bolder;
+            right: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color:rgb(240, 144, 99); 
+            color:rgb(61, 83, 92); 
+        }
+        #location-zip-code{
+            font-size: 12px;
+            font-weight: bold;
+        }
+        #scrollup{
+    border: 0px solid black;
+    text-align: center;
+    padding: 8px;
+    line-height: 3px;
+    background-color: rgb(190, 187, 187);
+          
+        }
+        .productfixeddescription{
+           
+            width: 99.8%;
+            display: flex;
+            gap: 32px;
+            border: 0px solid black;
+      align-items: center;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      box-shadow: 0px 2px 3px 0px  gray;
+        }
+    
+}
+
+@media screen and (max-width:390px) {
+    *{
+        margin: 0;
+    }
+        body{
+            width: 100%;
+        }
+        main{
+            width: 100%;
+        }
+        .firstheader{
+            width: 100%;
+          padding: 10px 0 10px 0;
+            background-color: rgb(240, 125, 48);
+        }
+       
+        .navdiv{
+            background-color: rgb(240, 125, 48);  
+            display: flex;
+            justify-content:space-between;
+            padding: 10px 10px 0px 10px;
+            font-size: 20px;
+        }
+        .secondheader{
+            display: none;
+        }
+        
+        .sectiontwonavbar{
+            display: flex;
+            gap: 10px;
+            flex-direction: row;
+            font-family:Arial, Helvetica, sans-serif;
+          
+        }
+        
+        #addcartvalue{
+            position: relative;
+            bottom: 10px;
+            right: 10px;
+            background-color: rgb(102, 50, 7);
+            color: white;
+            padding: 2px 5px 2px 5px;
+            font-size: 10px;
+            border-radius: 5px;
+        }
+        .navdiv a{
+            text-decoration: none;
+            color: white;
+        }
+        #signinglinkdiv{
+            font-size: 13px;
+        }
+        
+        #secondheaderdiv-second,
+        .siginginfodiv,
+        .thirdheader,
+        .locationdiv,
+        #optionselectdive ,
+         #countryselect ,
+          .logodive{
+            display: none;
+        }
+        #searchitembar{
+            display: flex;
+            width: 90%;
+            padding: 9px;
+        margin: auto;
+        border: none;
+        border-radius: 6px;
+        font-size: 12px;
+        
+        }
+        .secondheader .secondheaderdiv{
+            display: flex;
+            gap: 22px;
+            cursor: pointer; 
+            overflow: auto;
+            white-space: nowrap;
+            width: 96.8%;
+            padding: 10px 7px 10px 5px;
+            background-color: rgb(67, 110, 129);
+            color:white;
+            font-size: 12px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .secondheader .secondheaderdiv li{
+            list-style: none;
+           padding: 4px;
+            
+        }
+        /* location update with signing */
+        .locationupdate {
+            
+            background-color:rgb(67, 110, 129);
+            width: 100%;
+            
+        }
+        .firstlocationdiv{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin:  auto;
+            font-family: Arial, Helvetica, sans-serif;
+         width: 98%;
+            padding: 5px 0px 5px 0px;
+            border-top: 1px solid rgb(240, 144, 99); 
+        }
+        .firstlocationdiv a{
+            display: flex;
+            gap: 5px;
+            width: 90%;
+            border: 0px black solid;
+            text-decoration: none;
+            color: white;
+        word-spacing: -1.5px;
+        }
+        
+        #citylocation{
+            font-size: 13px;
+        }
+        
+        .fa-caret-down{
+            position: relative;
+            left: 3px;
+            top: 1px;
+        }
+        
+        .firstlocationdiv button{
+            display: none;
+            position: relative;
+            font-weight: bolder;
+            right: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color:rgb(240, 144, 99); 
+            color:rgb(61, 83, 92); 
+        }
+        #location-zip-code{
+            font-size: 12px;
+            font-weight: bold;
+        }
+        #scrollup{
+    border: 0px solid black;
+    text-align: center;
+    padding: 8px;
+    line-height: 3px;
+    background-color: rgb(190, 187, 187);
+          
+        }
+        .productfixeddescription{
+           
+            width: 99.8%;
+            display: flex;
+            gap: 32px;
+            border: 0px solid black;
+      align-items: center;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      box-shadow: 0px 2px 3px 0px  gray;
+        }
+    
+}
+@media screen and (max-width:430px) {
+    *{
+        margin: 0;
+    }
+        body{
+            width: 100%;
+        }
+        main{
+            width: 100%;
+        }
+        .firstheader{
+            width: 100%;
+          padding: 10px 0 10px 0;
+            background-color: rgb(240, 125, 48);
+        }
+       
+        .navdiv{
+            background-color: rgb(240, 125, 48);  
+            display: flex;
+            justify-content:space-between;
+            padding: 10px 10px 0px 10px;
+            font-size: 20px;
+        }
+        .secondheader{
+            display: none;
+        }
+        
+        .sectiontwonavbar{
+            display: flex;
+            gap: 10px;
+            flex-direction: row;
+            font-family:Arial, Helvetica, sans-serif;
+          
+        }
+        
+        #addcartvalue{
+            position: relative;
+            bottom: 10px;
+            right: 10px;
+            background-color: rgb(102, 50, 7);
+            color: white;
+            padding: 2px 5px 2px 5px;
+            font-size: 10px;
+            border-radius: 5px;
+        }
+        .navdiv a{
+            text-decoration: none;
+            color: white;
+        }
+        #signinglinkdiv{
+            font-size: 13px;
+        }
+        
+        #secondheaderdiv-second,
+        .siginginfodiv,
+        .thirdheader,
+        .locationdiv,
+        #optionselectdive ,
+         #countryselect ,
+          .logodive{
+            display: none;
+        }
+        #searchitembar{
+            display: flex;
+            width: 90%;
+            padding: 9px;
+        margin: auto;
+        border: none;
+        border-radius: 6px;
+        font-size: 12px;
+        
+        }
+        .secondheader .secondheaderdiv{
+            display: flex;
+            gap: 22px;
+            cursor: pointer; 
+            overflow: auto;
+            white-space: nowrap;
+            width: 96.8%;
+            padding: 10px 7px 10px 5px;
+            background-color: rgb(67, 110, 129);
+            color:white;
+            font-size: 12px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .secondheader .secondheaderdiv li{
+            list-style: none;
+           padding: 4px;
+            
+        }
+        /* location update with signing */
+        .locationupdate {
+            
+            background-color:rgb(67, 110, 129);
+            width: 100%;
+            
+        }
+        .firstlocationdiv{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin:  auto;
+            font-family: Arial, Helvetica, sans-serif;
+         width: 98%;
+            padding: 5px 0px 5px 0px;
+            border-top: 1px solid rgb(240, 144, 99); 
+        }
+        .firstlocationdiv a{
+            display: flex;
+            gap: 5px;
+            width: 90%;
+            border: 0px black solid;
+            text-decoration: none;
+            color: white;
+        word-spacing: -1.5px;
+        }
+        
+        #citylocation{
+            font-size: 13px;
+        }
+        
+        .fa-caret-down{
+            position: relative;
+            left: 3px;
+            top: 1px;
+        }
+        
+        .firstlocationdiv button{
+            display: none;
+            position: relative;
+            font-weight: bolder;
+            right: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color:rgb(240, 144, 99); 
+            color:rgb(61, 83, 92); 
+        }
+        #location-zip-code{
+            font-size: 12px;
+            font-weight: bold;
+        }
+        #scrollup{
+    border: 0px solid black;
+    text-align: center;
+    padding: 8px;
+    line-height: 3px;
+    background-color: rgb(190, 187, 187);
+          
+        }
+        .productfixeddescription{
+           
+            width: 99.8%;
+            display: flex;
+            gap: 32px;
+            border: 0px solid black;
+      align-items: center;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      box-shadow: 0px 2px 3px 0px  gray;
+        }
+    
+}
