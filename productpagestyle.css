@@ -2270,6 +2270,7 @@ text-align: center;
     color: black;
     font-weight: bold;
 }
+.active ,
 .collapse{
     border-top: 1px solid gray;
     line-height: 22px;
@@ -2304,6 +2305,52 @@ text-align: center;
 
     
 }
+.collapse-signtwo:after{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "\002B";
+    float: right;
+ position: relative;
+ bottom: 35px;
+ right: 10px;
+ font-weight: bold;
+
+
+}
+.collapse-signone:after{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "\002B";
+    float: right;
+ position: relative;
+ bottom: 35px;
+ right: 10px;
+ font-weight: bold;
+
+}
+.appplecaredcollapse:after{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "\002B";
+    float: right;
+ position: relative;
+ font-weight: bold;
+
+}
+.active:after{
+    content: "\2212";
+    color: red;
+
+}
+.appplecaredcollapse{
+    position: relative;
+   
+}
+
+
 .collapseheader h4{
     padding:7px;
     font-size: 10px;
