@@ -696,6 +696,8 @@
         font-weight: bold;
         border-radius: 5px;
         border-bottom: 2px solid rgb(243, 206, 190);
+        color: black;
+        font-size: 18px;
     }
     .buynowbutondivbutton button:hover{
         border-bottom: 2.5px solid rgb(231, 75, 7);
@@ -727,13 +729,15 @@
     }
     .inputcartbuynow label{
         color: green;
+        font-weight: bold;
     }
     .inputcartbuynow select{
         width: 100%;
         margin: auto;
-        padding: 4px;
+        padding: 14px;
         border-radius: 5px;
         border: 1px solid rgb(211, 194, 187);
+        color: black;
 
     }
 
@@ -745,19 +749,21 @@
         margin:15px auto;
     }
     .addandbuy button{
-        padding: 8px;
+        padding: 15px;
         border-radius: 15px;
         border: none;
     }
     #buynow{
         background-color: rgb(245, 91, 20);
+        color: black;
+        font-size: 20px;
     }
     #addcart{
         background-color:rgb(240, 164, 129) ;
+        color: black;
+        font-size: 20px;
     }
 
-    
-    
 }
 @media screen and (max-width:430px) {
     *{
@@ -1457,6 +1463,8 @@
         font-weight: bold;
         border-radius: 5px;
         border-bottom: 2px solid rgb(243, 206, 190);
+        color: black;
+        font-size: 18px;
     }
     .buynowbutondivbutton button:hover{
         border-bottom: 2.5px solid rgb(231, 75, 7);
@@ -1488,13 +1496,15 @@
     }
     .inputcartbuynow label{
         color: green;
+        font-weight: bold;
     }
     .inputcartbuynow select{
         width: 100%;
         margin: auto;
-        padding: 4px;
+        padding: 14px;
         border-radius: 5px;
         border: 1px solid rgb(211, 194, 187);
+        color: black;
 
     }
 
@@ -1506,15 +1516,19 @@
         margin:15px auto;
     }
     .addandbuy button{
-        padding: 8px;
+        padding: 15px;
         border-radius: 15px;
         border: none;
     }
     #buynow{
         background-color: rgb(245, 91, 20);
+        color: black;
+        font-size: 20px;
     }
     #addcart{
         background-color:rgb(240, 164, 129) ;
+        color: black;
+        font-size: 20px;
     }
 
     
