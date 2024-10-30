@@ -1,4 +1,4 @@
-@media screen and (max-width:375px) { 
+@media screen and (max-width:375px) {
     *{
         list-style: none;
         margin: 0;
@@ -424,6 +424,7 @@
         display: none;
     }
     
+    /*premium member*/
     .buddbechoice{
         font-size: 12px;
         margin-top: 10px;
@@ -675,6 +676,86 @@
     padding:8px;
     line-height: 0px;
     }
+    
+    /* delivery and pickup */
+    .productbuyaddcartbutton{
+        margin-top: 10px;
+       border-top: 1px solid gray;
+    }
+    .buynowbutondivbutton{
+        width: 90%;
+        display: flex;
+        gap: 1%;
+        margin:10px auto;
+        
+    }
+    .buynowbutondivbutton button{
+        width: 50%;
+        padding: 10px;
+        border: none;
+        font-weight: bold;
+        border-radius: 5px;
+        border-bottom: 2px solid rgb(243, 206, 190);
+    }
+    .buynowbutondivbutton button:hover{
+        border-bottom: 2.5px solid rgb(231, 75, 7);
+        color:rgb(231, 75, 7) ;
+    }
+    .deliverypricedateinfo {
+        line-height: 19px;
+        border: 0px red solid;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 10px;
+    }
+
+    #freedeli{
+        color: rgb(54, 197, 197);
+    }
+    #joinpremium{
+        color:rgb(245, 91, 20);
+    }
+    .inputcartbuynow form{
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+    .inputcartbuynow label{
+        color: green;
+    }
+    .inputcartbuynow select{
+        width: 100%;
+        margin: auto;
+        padding: 4px;
+        border-radius: 5px;
+        border: 1px solid rgb(211, 194, 187);
+
+    }
+
+    .addandbuy{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        width: 80%;
+        margin:15px auto;
+    }
+    .addandbuy button{
+        padding: 8px;
+        border-radius: 15px;
+        border: none;
+    }
+    #buynow{
+        background-color: rgb(245, 91, 20);
+    }
+    #addcart{
+        background-color:rgb(240, 164, 129) ;
+    }
+
     
     
 }
@@ -1104,6 +1185,7 @@
         display: none;
     }
     
+    /*premium member*/
     .buddbechoice{
         font-size: 12px;
         margin-top: 10px;
@@ -1326,9 +1408,7 @@
     color: rgb(46, 43, 43);
     
     }
-    .styleoptionbutton p{
 
-    }
     .strikepricetwo{
     color: red;
     text-decoration: line-through;
@@ -1358,5 +1438,84 @@
     line-height: 0px;
     }
     
+    /* delivery and pickup */
+    .productbuyaddcartbutton{
+        margin-top: 10px;
+       border-top: 1px solid gray;
+    }
+    .buynowbutondivbutton{
+        width: 90%;
+        display: flex;
+        gap: 1%;
+        margin:10px auto;
+        
+    }
+    .buynowbutondivbutton button{
+        width: 50%;
+        padding: 10px;
+        border: none;
+        font-weight: bold;
+        border-radius: 5px;
+        border-bottom: 2px solid rgb(243, 206, 190);
+    }
+    .buynowbutondivbutton button:hover{
+        border-bottom: 2.5px solid rgb(231, 75, 7);
+        color:rgb(231, 75, 7) ;
+    }
+    .deliverypricedateinfo {
+        line-height: 19px;
+        border: 0px red solid;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 10px;
+    }
+
+    #freedeli{
+        color: rgb(54, 197, 197);
+    }
+    #joinpremium{
+        color:rgb(245, 91, 20);
+    }
+    .inputcartbuynow form{
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+    .inputcartbuynow label{
+        color: green;
+    }
+    .inputcartbuynow select{
+        width: 100%;
+        margin: auto;
+        padding: 4px;
+        border-radius: 5px;
+        border: 1px solid rgb(211, 194, 187);
+
+    }
+
+    .addandbuy{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        width: 80%;
+        margin:15px auto;
+    }
+    .addandbuy button{
+        padding: 8px;
+        border-radius: 15px;
+        border: none;
+    }
+    #buynow{
+        background-color: rgb(245, 91, 20);
+    }
+    #addcart{
+        background-color:rgb(240, 164, 129) ;
+    }
+
     
 }
