@@ -689,6 +689,22 @@
         margin:10px auto;
         
     }
+    .currentlocationofbuyer{
+        font-size: 14px;
+    
+    }
+    .timebefororder{
+        color: rgb(27, 139, 139);
+        font-weight: 100;
+    }
+    .locationcolor{
+        color:rgb(27, 139, 139);
+    }
+   .fa-location-dot{
+    position: relative;
+    right: 2px;
+    color: black;
+   }
     .buynowbutondivbutton button{
         width: 50%;
         padding: 10px;
@@ -697,7 +713,8 @@
         border-radius: 5px;
         border-bottom: 2px solid rgb(243, 206, 190);
         color: black;
-        font-size: 18px;
+        font-size: 16px;
+        font-weight: 500;
     }
     .buynowbutondivbutton button:hover{
         border-bottom: 2.5px solid rgb(231, 75, 7);
@@ -732,28 +749,34 @@
         display: flex;
         gap: 5px;
         flex-direction: column;
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     .inputcartbuynow label{
         color: green;
         font-weight: bold;
+       
     }
     .inputcartbuynow select{
-        width: 100%;
-        margin: auto;
-        padding: 12px;
-        border-radius: 10px;
-        border: 1px solid rgb(211, 194, 187);
-        color: black;
+padding: 10px;
+border-radius: 10px; 
+border: 1px solid rgb(230, 130, 36);
 
     }
-
+    .inputcartbuynow select:hover{
+        border: 2px solid rgb(230, 130, 36);
+    }
+   /* width: 100%;
+    margin: auto;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid rgb(211, 194, 187);
+    color: black;*/
     .addandbuy{
         display: flex;
         gap: 10px;
         flex-direction: column;
-        width: 80%;
+        width: 90%;
         margin:15px auto;
     }
     .addandbuy button{
@@ -771,10 +794,98 @@
         color: black;
         font-size: 16px;
     }
+/* policy and assurance payment refund policy*/
+.policyassurance{
+    margin: auto;
+    border: 0px solid black;
+    width: 90%;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height:20px;
+}
+
+.policyassurance .together{
+    color:rgb(39, 124, 96);
+}
+.fa-lock{
+    color: rgb(66, 65, 65);
+    position: relative;
+    right: 2px;
+}
+.tableheader{
+    color: rgb(26, 20, 20);
+    font-size: 13px;
+}
+/* protection plan */
+.addprotection{
+
+    margin: auto;
+    border: 0px solid black;
+    width: 90%;
+}
+.protectionplaninput{
+    border-top: 1px solid gray;
+    display: flex;
+ gap: 10px;
+    align-items: center;
+ 
+    margin-top: 10px;
+    font-size: 14px;
+    padding-top: 19px;
+}
+#Planprice{
+    color: red;
+}
+.arrowdirection{
+  position: relative;
+font-size: 10px;
+  left: 60px;
 
 }
+.arrowdirectionone{
+    position: relative;
+    left: 85px;
+}
+
+
+/* product details */
+.productdetailsheader{
+    border-top: 1px solid gray;
+    margin-bottom: 10px;
+    color: rgb(49, 46, 46);
+    padding-top: 10px;
+}
+.maintable{
+    margin: 20px auto;
+    border: 0px solid black;
+    width: 90%;
+}
+.tableresult{
+ padding-left: 20px;
+ font-size: 14px;
+}
+tbody{
+    line-height: 20px;
+}
+.aboutproductdiv{
+    border: 1px solid rgb(190, 182, 182);
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.aboutproductdiv li{
+    list-style:disc;
+   
+}
+.aboutproductdiv h1{
+    position: relative;
+    left: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+}
 @media screen and (max-width:414px) {
-    
     *{
         list-style: none;
         margin: 0;
@@ -1465,6 +1576,22 @@
         margin:10px auto;
         
     }
+    .currentlocationofbuyer{
+        font-size: 14px;
+    
+    }
+    .timebefororder{
+        color: rgb(27, 139, 139);
+        font-weight: 100;
+    }
+    .locationcolor{
+        color:rgb(27, 139, 139);
+    }
+   .fa-location-dot{
+    position: relative;
+    right: 2px;
+    color: black;
+   }
     .buynowbutondivbutton button{
         width: 50%;
         padding: 10px;
@@ -1473,7 +1600,8 @@
         border-radius: 5px;
         border-bottom: 2px solid rgb(243, 206, 190);
         color: black;
-        font-size: 18px;
+        font-size: 16px;
+        font-weight: 500;
     }
     .buynowbutondivbutton button:hover{
         border-bottom: 2.5px solid rgb(231, 75, 7);
@@ -1508,28 +1636,34 @@
         display: flex;
         gap: 5px;
         flex-direction: column;
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     .inputcartbuynow label{
         color: green;
         font-weight: bold;
+       
     }
     .inputcartbuynow select{
-        width: 100%;
-        margin: auto;
-        padding: 12px;
-        border-radius: 10px;
-        border: 1px solid rgb(211, 194, 187);
-        color: black;
+padding: 10px;
+border-radius: 10px; 
+border: 1px solid rgb(230, 130, 36);
 
     }
-
+    .inputcartbuynow select:hover{
+        border: 2px solid rgb(230, 130, 36);
+    }
+   /* width: 100%;
+    margin: auto;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid rgb(211, 194, 187);
+    color: black;*/
     .addandbuy{
         display: flex;
         gap: 10px;
         flex-direction: column;
-        width: 80%;
+        width: 90%;
         margin:15px auto;
     }
     .addandbuy button{
@@ -1547,11 +1681,99 @@
         color: black;
         font-size: 16px;
     }
+/* policy and assurance payment refund policy*/
+.policyassurance{
+    margin: auto;
+    border: 0px solid black;
+    width: 90%;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height:20px;
+}
 
+.policyassurance .together{
+    color:rgb(39, 124, 96);
+}
+.fa-lock{
+    color: rgb(66, 65, 65);
+    position: relative;
+    right: 2px;
+}
+.tableheader{
+    color: rgb(26, 20, 20);
+    font-size: 13px;
+}
+/* protection plan */
+.addprotection{
+
+    margin: auto;
+    border: 0px solid black;
+    width: 90%;
+}
+.protectionplaninput{
+    border-top: 1px solid gray;
+    display: flex;
+ gap: 10px;
+    align-items: center;
+ 
+    margin-top: 10px;
+    font-size: 14px;
+    padding-top: 19px;
+}
+#Planprice{
+    color: red;
+}
+.arrowdirection{
+  position: relative;
+font-size: 10px;
+  left: 60px;
+
+}
+.arrowdirectionone{
+    position: relative;
+    left: 85px;
+}
+
+
+/* product details */
+.productdetailsheader{
+    border-top: 1px solid gray;
+    margin-bottom: 10px;
+    color: rgb(49, 46, 46);
+    padding-top: 10px;
+}
+.maintable{
+    margin: 20px auto;
+    border: 0px solid black;
+    width: 90%;
+}
+.tableresult{
+ padding-left: 20px;
+ font-size: 14px;
+}
+tbody{
+    line-height: 20px;
+}
+.aboutproductdiv{
+    border: 1px solid rgb(190, 182, 182);
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.aboutproductdiv li{
+    list-style:disc;
+   
+}
+.aboutproductdiv h1{
+    position: relative;
+    left: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
     
 }
 @media screen and (max-width:390px) {
-    
     *{
         list-style: none;
         margin: 0;
@@ -2242,6 +2464,22 @@
         margin:10px auto;
         
     }
+    .currentlocationofbuyer{
+        font-size: 14px;
+    
+    }
+    .timebefororder{
+        color: rgb(27, 139, 139);
+        font-weight: 100;
+    }
+    .locationcolor{
+        color:rgb(27, 139, 139);
+    }
+   .fa-location-dot{
+    position: relative;
+    right: 2px;
+    color: black;
+   }
     .buynowbutondivbutton button{
         width: 50%;
         padding: 10px;
@@ -2250,7 +2488,8 @@
         border-radius: 5px;
         border-bottom: 2px solid rgb(243, 206, 190);
         color: black;
-        font-size: 18px;
+        font-size: 16px;
+        font-weight: 500;
     }
     .buynowbutondivbutton button:hover{
         border-bottom: 2.5px solid rgb(231, 75, 7);
@@ -2285,28 +2524,34 @@
         display: flex;
         gap: 5px;
         flex-direction: column;
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     .inputcartbuynow label{
         color: green;
         font-weight: bold;
+       
     }
     .inputcartbuynow select{
-        width: 100%;
-        margin: auto;
-        padding: 12px;
-        border-radius: 10px;
-        border: 1px solid rgb(211, 194, 187);
-        color: black;
+padding: 10px;
+border-radius: 10px; 
+border: 1px solid rgb(230, 130, 36);
 
     }
-
+    .inputcartbuynow select:hover{
+        border: 2px solid rgb(230, 130, 36);
+    }
+   /* width: 100%;
+    margin: auto;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid rgb(211, 194, 187);
+    color: black;*/
     .addandbuy{
         display: flex;
         gap: 10px;
         flex-direction: column;
-        width: 80%;
+        width: 90%;
         margin:15px auto;
     }
     .addandbuy button{
@@ -2324,11 +2569,99 @@
         color: black;
         font-size: 16px;
     }
+/* policy and assurance payment refund policy*/
+.policyassurance{
+    margin: auto;
+    border: 0px solid black;
+    width: 90%;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height:20px;
+}
 
+.policyassurance .together{
+    color:rgb(39, 124, 96);
+}
+.fa-lock{
+    color: rgb(66, 65, 65);
+    position: relative;
+    right: 2px;
+}
+.tableheader{
+    color: rgb(26, 20, 20);
+    font-size: 13px;
+}
+/* protection plan */
+.addprotection{
+
+    margin: auto;
+    border: 0px solid black;
+    width: 90%;
+}
+.protectionplaninput{
+    border-top: 1px solid gray;
+    display: flex;
+ gap: 10px;
+    align-items: center;
+ 
+    margin-top: 10px;
+    font-size: 14px;
+    padding-top: 19px;
+}
+#Planprice{
+    color: red;
+}
+.arrowdirection{
+  position: relative;
+font-size: 10px;
+  left: 60px;
+
+}
+.arrowdirectionone{
+    position: relative;
+    left: 85px;
+}
+
+
+/* product details */
+.productdetailsheader{
+    border-top: 1px solid gray;
+    margin-bottom: 10px;
+    color: rgb(49, 46, 46);
+    padding-top: 10px;
+}
+.maintable{
+    margin: 20px auto;
+    border: 0px solid black;
+    width: 90%;
+}
+.tableresult{
+ padding-left: 20px;
+ font-size: 14px;
+}
+tbody{
+    line-height: 20px;
+}
+.aboutproductdiv{
+    border: 1px solid rgb(190, 182, 182);
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.aboutproductdiv li{
+    list-style:disc;
+   
+}
+.aboutproductdiv h1{
+    position: relative;
+    left: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
     
 }
-@media screen and (max-width:430px){
-    
+@media screen and (max-width:430px) {
     *{
         list-style: none;
         margin: 0;
@@ -3019,6 +3352,22 @@
         margin:10px auto;
         
     }
+    .currentlocationofbuyer{
+        font-size: 14px;
+    
+    }
+    .timebefororder{
+        color: rgb(27, 139, 139);
+        font-weight: 100;
+    }
+    .locationcolor{
+        color:rgb(27, 139, 139);
+    }
+   .fa-location-dot{
+    position: relative;
+    right: 2px;
+    color: black;
+   }
     .buynowbutondivbutton button{
         width: 50%;
         padding: 10px;
@@ -3027,7 +3376,8 @@
         border-radius: 5px;
         border-bottom: 2px solid rgb(243, 206, 190);
         color: black;
-        font-size: 18px;
+        font-size: 16px;
+        font-weight: 500;
     }
     .buynowbutondivbutton button:hover{
         border-bottom: 2.5px solid rgb(231, 75, 7);
@@ -3062,28 +3412,34 @@
         display: flex;
         gap: 5px;
         flex-direction: column;
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     .inputcartbuynow label{
         color: green;
         font-weight: bold;
+       
     }
     .inputcartbuynow select{
-        width: 100%;
-        margin: auto;
-        padding: 12px;
-        border-radius: 10px;
-        border: 1px solid rgb(211, 194, 187);
-        color: black;
+padding: 10px;
+border-radius: 10px; 
+border: 1px solid rgb(230, 130, 36);
 
     }
-
+    .inputcartbuynow select:hover{
+        border: 2px solid rgb(230, 130, 36);
+    }
+   /* width: 100%;
+    margin: auto;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid rgb(211, 194, 187);
+    color: black;*/
     .addandbuy{
         display: flex;
         gap: 10px;
         flex-direction: column;
-        width: 80%;
+        width: 90%;
         margin:15px auto;
     }
     .addandbuy button{
@@ -3101,6 +3457,95 @@
         color: black;
         font-size: 16px;
     }
+/* policy and assurance payment refund policy*/
+.policyassurance{
+    margin: auto;
+    border: 0px solid black;
+    width: 90%;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height:20px;
+}
 
+.policyassurance .together{
+    color:rgb(39, 124, 96);
+}
+.fa-lock{
+    color: rgb(66, 65, 65);
+    position: relative;
+    right: 2px;
+}
+.tableheader{
+    color: rgb(26, 20, 20);
+    font-size: 13px;
+}
+/* protection plan */
+.addprotection{
+
+    margin: auto;
+    border: 0px solid black;
+    width: 90%;
+}
+.protectionplaninput{
+    border-top: 1px solid gray;
+    display: flex;
+ gap: 10px;
+    align-items: center;
+ 
+    margin-top: 10px;
+    font-size: 14px;
+    padding-top: 19px;
+}
+#Planprice{
+    color: red;
+}
+.arrowdirection{
+  position: relative;
+font-size: 10px;
+  left: 60px;
+
+}
+.arrowdirectionone{
+    position: relative;
+    left: 85px;
+}
+
+
+/* product details */
+.productdetailsheader{
+    border-top: 1px solid gray;
+    margin-bottom: 10px;
+    color: rgb(49, 46, 46);
+    padding-top: 10px;
+}
+.maintable{
+    margin: 20px auto;
+    border: 0px solid black;
+    width: 90%;
+}
+.tableresult{
+ padding-left: 20px;
+ font-size: 14px;
+}
+tbody{
+    line-height: 20px;
+}
+.aboutproductdiv{
+    border: 1px solid rgb(190, 182, 182);
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.aboutproductdiv li{
+    list-style:disc;
+   
+}
+.aboutproductdiv h1{
+    position: relative;
+    left: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
     
 }
