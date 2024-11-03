@@ -270,7 +270,7 @@
             width: 85%;
             border-radius: 10px;
         }
-        label::before{
+        .howreviewswork label::before{
             content:"" ;
             border-width: 7px;
             border-style:solid;
@@ -300,10 +300,113 @@
             height: auto;
            
         }
-}
+        .customerreviewssecond{
+            display: none;
+        }
 
-@media screen and (max-width:414px ){
-    
+        /* image review only */
+        .reviewwithimageonlyone{
+            border: 1px solid rgb(218, 213, 213);
+            width: 90%;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 3px gray;
+            margin-bottom: 40px;
+         
+        }
+        .reviewwithimageonlyone h1{
+            padding: 15px 0px 8px 10px;
+            font-size: 20px;
+            color: rgb(41, 39, 39);
+        }
+     
+
+        .reviewwithimageonly{
+            border: 0px solid rgb(129, 127, 127);
+            width: 100%;
+            margin: -10px auto;
+            display: flex;
+            height: 100px;
+            border-radius: 10px;
+          
+         
+        }
+        .imagelistdivul{
+            border: 0px red solid;
+            width: 80%;
+            display: flex;
+            align-items:last baseline;
+            overflow: hidden;
+            margin: 10px;
+        }
+        .imagelistdivul ul{
+            display: flex;
+            margin-left: -6%;
+            height: 80px;
+            margin-bottom: 10px;
+
+        }
+        
+        .reviewwithimageonly li{
+            border: 0px solid black;
+            margin: 5px 5px 5px 0px;
+            width: 80px;
+       
+ 
+        }
+        .reviewwithimageonly li img{
+            width: 100%;
+            height: 100%;
+        }
+        .arrowdive{
+            border: 0px green solid;
+            justify-content: center;
+            position: relative;
+            height: 30px;
+            position: relative;
+            top: 38%;
+            left: 5%;
+          
+
+        }
+        .arrowdive::before{
+  
+            content: "";
+            border-width: 10px;
+            border-style: solid;
+            border-color: transparent transparent transparent black;
+            font-size: 0;
+
+            
+        }
+
+        /* user revirew verfy page */
+        .reviewfiltersearch{
+            display: none;
+        }
+        .numberandrateofreviews{
+          color: rgb(53, 51, 51);
+            margin: auto;
+            margin-top: -20px;
+            font-size: 14px;
+            margin-bottom: 10px;
+                width: 90%;
+                border-bottom: 1px solid rgb(119, 117, 117);
+                padding-bottom: 10px;
+
+        }
+        .securemaindiv{
+            display: none;
+        }
+
+        /* verify users inform */
+        .reviewcustomerprofilediv{
+            border: 1px solid black;
+            width: 90%;
+            margin: auto;
+        }
+}
+@media screen and (max-width:414px){
     *{
         list-style: none;
         margin: 0;
@@ -575,7 +678,7 @@
             width: 85%;
             border-radius: 10px;
         }
-        label::before{
+        .howreviewswork label::before{
             content:"" ;
             border-width: 7px;
             border-style:solid;
@@ -604,10 +707,114 @@
         input:checked ~ .reviewinfo{
             height: auto;
            
+        }
+        .customerreviewssecond{
+            display: none;
+        }
+
+        /* image review only */
+        .reviewwithimageonlyone{
+            border: 1px solid rgb(218, 213, 213);
+            width: 90%;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 3px gray;
+            margin-bottom: 40px;
+         
+        }
+        .reviewwithimageonlyone h1{
+            padding: 15px 0px 8px 10px;
+            font-size: 20px;
+            color: rgb(41, 39, 39);
+        }
+     
+
+        .reviewwithimageonly{
+            border: 0px solid rgb(129, 127, 127);
+            width: 100%;
+            margin: -10px auto;
+            display: flex;
+            height: 100px;
+            border-radius: 10px;
+          
+         
+        }
+        .imagelistdivul{
+            border: 0px red solid;
+            width: 80%;
+            display: flex;
+            align-items:last baseline;
+            overflow: hidden;
+            margin: 10px;
+        }
+        .imagelistdivul ul{
+            display: flex;
+            margin-left: -6%;
+            height: 80px;
+            margin-bottom: 10px;
+
+        }
+        
+        .reviewwithimageonly li{
+            border: 0px solid black;
+            margin: 5px 5px 5px 0px;
+            width: 80px;
+       
+ 
+        }
+        .reviewwithimageonly li img{
+            width: 100%;
+            height: 100%;
+        }
+        .arrowdive{
+            border: 0px green solid;
+            justify-content: center;
+            position: relative;
+            height: 30px;
+            position: relative;
+            top: 38%;
+            left: 5%;
+          
+
+        }
+        .arrowdive::before{
+  
+            content: "";
+            border-width: 10px;
+            border-style: solid;
+            border-color: transparent transparent transparent black;
+            font-size: 0;
+
+            
+        }
+
+        /* user revirew verfy page */
+        .reviewfiltersearch{
+            display: none;
+        }
+        .numberandrateofreviews{
+          color: rgb(53, 51, 51);
+            margin: auto;
+            margin-top: -20px;
+            font-size: 14px;
+            margin-bottom: 10px;
+                width: 90%;
+                border-bottom: 1px solid rgb(119, 117, 117);
+                padding-bottom: 10px;
+
+        }
+        .securemaindiv{
+            display: none;
+        }
+
+        /* verify users inform */
+        .reviewcustomerprofilediv{
+            border: 1px solid black;
+            width: 90%;
+            margin: auto;
         }
 }
 @media screen and (max-width:390px){
-    
     *{
         list-style: none;
         margin: 0;
@@ -879,7 +1086,7 @@
             width: 85%;
             border-radius: 10px;
         }
-        label::before{
+        .howreviewswork label::before{
             content:"" ;
             border-width: 7px;
             border-style:solid;
@@ -908,10 +1115,114 @@
         input:checked ~ .reviewinfo{
             height: auto;
            
+        }
+        .customerreviewssecond{
+            display: none;
+        }
+
+        /* image review only */
+        .reviewwithimageonlyone{
+            border: 1px solid rgb(218, 213, 213);
+            width: 90%;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 3px gray;
+            margin-bottom: 40px;
+         
+        }
+        .reviewwithimageonlyone h1{
+            padding: 15px 0px 8px 10px;
+            font-size: 20px;
+            color: rgb(41, 39, 39);
+        }
+     
+
+        .reviewwithimageonly{
+            border: 0px solid rgb(129, 127, 127);
+            width: 100%;
+            margin: -10px auto;
+            display: flex;
+            height: 100px;
+            border-radius: 10px;
+          
+         
+        }
+        .imagelistdivul{
+            border: 0px red solid;
+            width: 80%;
+            display: flex;
+            align-items:last baseline;
+            overflow: hidden;
+            margin: 10px;
+        }
+        .imagelistdivul ul{
+            display: flex;
+            margin-left: -6%;
+            height: 80px;
+            margin-bottom: 10px;
+
+        }
+        
+        .reviewwithimageonly li{
+            border: 0px solid black;
+            margin: 5px 5px 5px 0px;
+            width: 80px;
+       
+ 
+        }
+        .reviewwithimageonly li img{
+            width: 100%;
+            height: 100%;
+        }
+        .arrowdive{
+            border: 0px green solid;
+            justify-content: center;
+            position: relative;
+            height: 30px;
+            position: relative;
+            top: 38%;
+            left: 5%;
+          
+
+        }
+        .arrowdive::before{
+  
+            content: "";
+            border-width: 10px;
+            border-style: solid;
+            border-color: transparent transparent transparent black;
+            font-size: 0;
+
+            
+        }
+
+        /* user revirew verfy page */
+        .reviewfiltersearch{
+            display: none;
+        }
+        .numberandrateofreviews{
+          color: rgb(53, 51, 51);
+            margin: auto;
+            margin-top: -20px;
+            font-size: 14px;
+            margin-bottom: 10px;
+                width: 90%;
+                border-bottom: 1px solid rgb(119, 117, 117);
+                padding-bottom: 10px;
+
+        }
+        .securemaindiv{
+            display: none;
+        }
+
+        /* verify users inform */
+        .reviewcustomerprofilediv{
+            border: 1px solid black;
+            width: 90%;
+            margin: auto;
         }
 }
 @media screen and (max-width:430px){
-    
     *{
         list-style: none;
         margin: 0;
@@ -1183,7 +1494,7 @@
             width: 85%;
             border-radius: 10px;
         }
-        label::before{
+        .howreviewswork label::before{
             content:"" ;
             border-width: 7px;
             border-style:solid;
@@ -1212,5 +1523,110 @@
         input:checked ~ .reviewinfo{
             height: auto;
            
+        }
+        .customerreviewssecond{
+            display: none;
+        }
+
+        /* image review only */
+        .reviewwithimageonlyone{
+            border: 1px solid rgb(218, 213, 213);
+            width: 90%;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 3px gray;
+            margin-bottom: 40px;
+         
+        }
+        .reviewwithimageonlyone h1{
+            padding: 15px 0px 8px 10px;
+            font-size: 20px;
+            color: rgb(41, 39, 39);
+        }
+     
+
+        .reviewwithimageonly{
+            border: 0px solid rgb(129, 127, 127);
+            width: 100%;
+            margin: -10px auto;
+            display: flex;
+            height: 100px;
+            border-radius: 10px;
+          
+         
+        }
+        .imagelistdivul{
+            border: 0px red solid;
+            width: 80%;
+            display: flex;
+            align-items:last baseline;
+            overflow: hidden;
+            margin: 10px;
+        }
+        .imagelistdivul ul{
+            display: flex;
+            margin-left: -6%;
+            height: 80px;
+            margin-bottom: 10px;
+
+        }
+        
+        .reviewwithimageonly li{
+            border: 0px solid black;
+            margin: 5px 5px 5px 0px;
+            width: 80px;
+       
+ 
+        }
+        .reviewwithimageonly li img{
+            width: 100%;
+            height: 100%;
+        }
+        .arrowdive{
+            border: 0px green solid;
+            justify-content: center;
+            position: relative;
+            height: 30px;
+            position: relative;
+            top: 38%;
+            left: 5%;
+          
+
+        }
+        .arrowdive::before{
+  
+            content: "";
+            border-width: 10px;
+            border-style: solid;
+            border-color: transparent transparent transparent black;
+            font-size: 0;
+
+            
+        }
+
+        /* user revirew verfy page */
+        .reviewfiltersearch{
+            display: none;
+        }
+        .numberandrateofreviews{
+          color: rgb(53, 51, 51);
+            margin: auto;
+            margin-top: -20px;
+            font-size: 14px;
+            margin-bottom: 10px;
+                width: 90%;
+                border-bottom: 1px solid rgb(119, 117, 117);
+                padding-bottom: 10px;
+
+        }
+        .securemaindiv{
+            display: none;
+        }
+
+        /* verify users inform */
+        .reviewcustomerprofilediv{
+            border: 1px solid black;
+            width: 90%;
+            margin: auto;
         }
 }
