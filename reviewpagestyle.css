@@ -1,4 +1,4 @@
-@media screen and (max-width:375px) {
+
     *{
         list-style: none;
         margin: 0;
@@ -253,7 +253,9 @@
             border-radius: 5px 0px 0px 5px;
 
         }
+        /* how reviews working */
         .howreviewswork{
+        
             border: 0px solid black;
             padding: 10px;
         }
@@ -292,11 +294,11 @@
             display: none;
         }
 
-        input:checked ~ label::before{
+        #trigger:checked ~ label::before{
             transform: rotate(90deg);
         }
 
-        input:checked ~ .reviewinfo{
+        #trigger:checked ~ .reviewinfo{
             height: auto;
            
         }
@@ -405,1228 +407,105 @@
             width: 90%;
             margin: auto;
         }
-}
-@media screen and (max-width:414px){
-    *{
-        list-style: none;
-        margin: 0;
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-        body{
-            width: 100%;
+        .reviewcustomerprofilediv .reviewlist{
+            border: 0px solid red;
+            padding: 5px;
+     
         }
-        main{
-            width: 100%;
+        .reviewcustomerprofilediv .otherlist{
+            padding: 5px;
         }
-        .firstheader{
-            width: 100%;
-          padding: 10px 0 10px 0;
-            background-color: rgb(240, 125, 48);
-        }
-       
-        .navdiv{
-            background-color: rgb(240, 125, 48);  
-            display: flex;
-            justify-content:space-between;
-            padding: 10px 10px 0px 10px;
-            font-size: 20px;
-        }
-        .secondheader{
-            display: none;
-        }
-        
-        .sectiontwonavbar{
-            display: flex;
-            gap: 10px;
-            flex-direction: row;
-            font-family:Arial, Helvetica, sans-serif;
-          
-        }
-        
-        #addcartvalue{
+        .alllistitemdive .fa-check{
             position: relative;
-            bottom: 10px;
-            right: 10px;
-            background-color: rgb(102, 50, 7);
+            right: 12px;
             color: white;
-            padding: 2px 5px 2px 5px;
             font-size: 10px;
-            border-radius: 5px;
+            bottom: 2px;
         }
-        .navdiv a{
-            text-decoration: none;
-            color: white;
+        .alllistitemdive .fa-certificate{
+            color: rgb(6, 137, 197);
         }
-        #signinglinkdiv{
-            font-size: 13px;
-        }
-    
-        .searchbar{
-            display: flex;
-        }
-        .searchbar .fa-magnifying-glass{
-            display: flex;
-            align-items: center;
-            border: 2px solid rgb(67, 110, 129);
-            position: relative;
-            right: 37px;
-            padding: 3px;
-            border-radius: 5px;
-            color: rgb(240, 112, 8);
-            background-color: rgb(67, 110, 129);
-            
-          
-    
-        }
-        
-        #secondheaderdiv-second,
-        .siginginfodiv,
-        .thirdheader,
-        .locationdiv,
-        #optionselectdive ,
-         #countryselect ,
-          .logodive{
-            display: none;
-        }
-        .searchitembar{
-            display: flex;
-            width: 80%;
-            padding: 9px;
-        margin: auto;
-        border: none;
-        border-radius: 6px;
-        font-size: 12px;
-        position: relative;
-       left: 12px;
-        }
-    
-        .searchbar{
+        .alllistitemdive .profiledive img{
+            border-radius: 50%;
             width: 100%;
-            border: 0px solid black;
+       
         }
-        .secondheader .secondheaderdiv{
+        .profilestyledive #verifier{
+            color: rgb(199, 79, 9);
+        }
+        .profiledive{
+            width: 40px;
+            height: 4-px;
+        }
+        .profilestyledive{
+            display: flex; 
+           align-items: center;
+        }
+        #verifier{
+            font-size: 12px;
+            margin-left: 10px;
+            position: relative;
+            bottom: 1px;
+            color: rgb(66, 64, 64);
+        }
+
+        .secondprofiledive .fa-star{
+            color: rgb(247, 124, 9);
+            font-size: 12px;
+        }
+        .reviewtitle{
+            border: 0px solid black;
+            margin: 5px 0px 5px 0px;
+        }
+        .reviewdatevalidation ,.validationdiv{
+            font-size: 12px;
+            color: rgb(75, 73, 73);
+        }
+        .validationdiv{
+            margin-bottom: 5px;
+        }
+        .reviewvalidation{
+            border: 0px solid green;
+        }
+        .reviewdownloadimage{
+            width: 100%;
+            border: 0px blue solid;
+            height: 130px;
             display: flex;
-            gap: 22px;
-            cursor: pointer; 
             overflow: auto;
             white-space: nowrap;
-            width: 96.8%;
-            padding: 10px 7px 10px 5px;
-            background-color: rgb(67, 110, 129);
-            color:white;
-            font-size: 12px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-        .secondheader .secondheaderdiv li{
-            list-style: none;
-           padding: 4px;
             
         }
-        /* location update with signing */
-        .locationupdate {
-            background-color:rgb(67, 110, 129);
-            width: 100%;
-            
-        }
-        .firstlocationdiv{
-            display: flex;
-            align-items: center;
-            margin:  auto;
-            font-family: Arial, Helvetica, sans-serif;
-         width: 98%;
-            padding: 5px 0px 5px 0px;
-            border-top: 0px solid rgb(240, 144, 99); 
-        }
-        .firstlocationdiv a{
-            display: flex;
-            gap: 5px;
-            width: 90%;
-            border: 0px black solid;
-            text-decoration: none;
-            color: white;
-        word-spacing: -1.5px;
-        padding: 5px;
-    
-        }
-        .join-premium{
-            display: none;
-        }
-        
-        #citylocation{
-            font-size: 13px;
-        }
-        
-        .fa-caret-down{
-            position: relative;
-            left: 3px;
-            top: 1px;
-        }
-        /* review heading title */
-        .reviewtileheading{
-            border-bottom: 1px solid rgb(172, 169, 169);
-            width: 100%;
-            background-color: rgb(233, 229, 229);
-          
-
-        }
-        .reviewtileheading p{
-            padding: 10px;
-        }
-        #customerreviewnote{
-            display: none;
-        }
-    
-        .customerreviewsfirst header{
-            font-size: 10px;
-            padding: 15px 10px;
-        }
-
-        .reviewstar{
-        
-            display: flex;
-            gap: 5px;
-            padding: 10px 0px 10px 10px;
-        }
-        .reviewstar a{
-            position: relative;
-            left: 60px;
-            color: rgb(44, 143, 110);
-        }
-        .reviewstar .fa-star{
-            color: goldenrod;
-        }
-        .numberofrating p{
-            padding: 0px 10px;
-            color: rgb(66, 65, 63);
-
-        }
-        /* review range rating */
-        .reviewratingrange{
-            border: 0px solid rgb(100, 98, 98);
-            width: 92%;
-            margin: auto;
-        }
-        .reviewratingrange p{
-            color: rgb(51, 48, 48);
-        }
-        .reviewratingrange .divrange{
-            display: flex;
-            gap: 10px;
-            margin-top: 3%;
-           
-        }
-        .reviewratingrange .firstdivrange{
-            border: 0.2px solid rgb(83, 79, 79);
-            width: 70%;
-            border-radius: 5px;
-           
-        }
-        /* inside range */
-        #range{
-            border: 0px solid black;
-            width: 80%;
-            height: 100%;
-            background-color: goldenrod;
-            border-radius: 5px 0px 0px 5px;
-        }
-        #rangesecond{
-            border: 0px solid black;
-            width: 50%;
-            height: 100%;
-            background-color: goldenrod;
-            border-radius: 5px 0px 0px 5px;
-        }
-        #rangethird{
-            border: 0px solid black;
-            width: 30%;
-            height: 100%;
-            background-color: goldenrod;
-            border-radius: 5px 0px 0px 5px;
-
-        }
-        #rangefour{
-            border: 0px solid black;
-            width: 20%;
-            height: 100%;
-            background-color: goldenrod;
-            border-radius: 5px 0px 0px 5px;
-            
-        }
-        #rangefive{
-            border: 0px solid black;
-            width: 5%;
-            height: 100%;
-            background-color: goldenrod;
-            border-radius: 5px 0px 0px 5px;
-
-        }
-        .howreviewswork{
-            border: 0px solid black;
-            padding: 10px;
-        }
-        .howreviewswork label{
-            border: 0px solid black;
-            display: flex;
-           align-items: center;
-           color: rgb(34, 143, 101);
       
-        }
-        .howreviewswork label:hover{
-            border: 2px solid rgb(219, 91, 6);
-            padding: 0px 0px 0px 10px;
-            width: 85%;
-            border-radius: 10px;
-        }
-        .howreviewswork label::before{
-            content:"" ;
-            border-width: 7px;
-            border-style:solid;
-            border-color:transparent transparent transparent rgb(20, 19, 19);
-            font-size: 0;
-            transition: transform 0.4s;
-            transform-origin: 5px center;
-        }
-        .reviewinfo{
-            border: 0px solid black;
-            margin-top: 10px;
-            background-color: rgb(250, 247, 247);
-            height: 0px;
-            overflow: hidden;
-       
-          
-        }
-        #trigger{
-            display: none;
-        }
-
-        input:checked ~ label::before{
-            transform: rotate(90deg);
-        }
-
-        input:checked ~ .reviewinfo{
-            height: auto;
-           
-        }
-        .customerreviewssecond{
-            display: none;
-        }
-
-        /* image review only */
-        .reviewwithimageonlyone{
-            border: 1px solid rgb(218, 213, 213);
-            width: 90%;
-            margin: auto;
-            border-radius: 10px;
-            box-shadow: 0px 0px 3px gray;
-            margin-bottom: 40px;
-         
-        }
-        .reviewwithimageonlyone h1{
-            padding: 15px 0px 8px 10px;
-            font-size: 20px;
-            color: rgb(41, 39, 39);
-        }
-     
-
-        .reviewwithimageonly{
-            border: 0px solid rgb(129, 127, 127);
-            width: 100%;
-            margin: -10px auto;
+        .reviewdownloadimage ol{
             display: flex;
-            height: 100px;
-            border-radius: 10px;
-          
-         
-        }
-        .imagelistdivul{
-            border: 0px red solid;
-            width: 80%;
-            display: flex;
-            align-items:last baseline;
-            overflow: hidden;
-            margin: 10px;
-        }
-        .imagelistdivul ul{
-            display: flex;
-            margin-left: -6%;
-            height: 80px;
-            margin-bottom: 10px;
-
-        }
-        
-        .reviewwithimageonly li{
-            border: 0px solid black;
-            margin: 5px 5px 5px 0px;
-            width: 80px;
-       
- 
-        }
-        .reviewwithimageonly li img{
-            width: 100%;
-            height: 100%;
-        }
-        .arrowdive{
+            gap: 20px;
             border: 0px green solid;
-            justify-content: center;
-            position: relative;
-            height: 30px;
-            position: relative;
-            top: 38%;
-            left: 5%;
-          
-
-        }
-        .arrowdive::before{
-  
-            content: "";
-            border-width: 10px;
-            border-style: solid;
-            border-color: transparent transparent transparent black;
-            font-size: 0;
-
-            
-        }
-
-        /* user revirew verfy page */
-        .reviewfiltersearch{
-            display: none;
-        }
-        .numberandrateofreviews{
-          color: rgb(53, 51, 51);
-            margin: auto;
-            margin-top: -20px;
-            font-size: 14px;
-            margin-bottom: 10px;
-                width: 90%;
-                border-bottom: 1px solid rgb(119, 117, 117);
-                padding-bottom: 10px;
-
-        }
-        .securemaindiv{
-            display: none;
-        }
-
-        /* verify users inform */
-        .reviewcustomerprofilediv{
-            border: 1px solid black;
-            width: 90%;
-            margin: auto;
-        }
-}
-@media screen and (max-width:390px){
-    *{
-        list-style: none;
-        margin: 0;
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-        body{
-            width: 100%;
-        }
-        main{
-            width: 100%;
-        }
-        .firstheader{
-            width: 100%;
-          padding: 10px 0 10px 0;
-            background-color: rgb(240, 125, 48);
-        }
-       
-        .navdiv{
-            background-color: rgb(240, 125, 48);  
-            display: flex;
-            justify-content:space-between;
-            padding: 10px 10px 0px 10px;
-            font-size: 20px;
-        }
-        .secondheader{
-            display: none;
-        }
-        
-        .sectiontwonavbar{
-            display: flex;
-            gap: 10px;
-            flex-direction: row;
-            font-family:Arial, Helvetica, sans-serif;
-          
-        }
-        
-        #addcartvalue{
-            position: relative;
-            bottom: 10px;
-            right: 10px;
-            background-color: rgb(102, 50, 7);
-            color: white;
-            padding: 2px 5px 2px 5px;
-            font-size: 10px;
-            border-radius: 5px;
-        }
-        .navdiv a{
-            text-decoration: none;
-            color: white;
-        }
-        #signinglinkdiv{
-            font-size: 13px;
-        }
-    
-        .searchbar{
-            display: flex;
-        }
-        .searchbar .fa-magnifying-glass{
-            display: flex;
-            align-items: center;
-            border: 2px solid rgb(67, 110, 129);
-            position: relative;
-            right: 37px;
-            padding: 3px;
-            border-radius: 5px;
-            color: rgb(240, 112, 8);
-            background-color: rgb(67, 110, 129);
-            
-          
-    
-        }
-        
-        #secondheaderdiv-second,
-        .siginginfodiv,
-        .thirdheader,
-        .locationdiv,
-        #optionselectdive ,
-         #countryselect ,
-          .logodive{
-            display: none;
-        }
-        .searchitembar{
-            display: flex;
-            width: 80%;
-            padding: 9px;
-        margin: auto;
-        border: none;
-        border-radius: 6px;
-        font-size: 12px;
-        position: relative;
-       left: 12px;
-        }
-    
-        .searchbar{
-            width: 100%;
-            border: 0px solid black;
-        }
-        .secondheader .secondheaderdiv{
-            display: flex;
-            gap: 22px;
-            cursor: pointer; 
-            overflow: auto;
-            white-space: nowrap;
-            width: 96.8%;
-            padding: 10px 7px 10px 5px;
-            background-color: rgb(67, 110, 129);
-            color:white;
-            font-size: 12px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-        .secondheader .secondheaderdiv li{
-            list-style: none;
-           padding: 4px;
-            
-        }
-        /* location update with signing */
-        .locationupdate {
-            background-color:rgb(67, 110, 129);
-            width: 100%;
-            
-        }
-        .firstlocationdiv{
-            display: flex;
-            align-items: center;
-            margin:  auto;
-            font-family: Arial, Helvetica, sans-serif;
-         width: 98%;
-            padding: 5px 0px 5px 0px;
-            border-top: 0px solid rgb(240, 144, 99); 
-        }
-        .firstlocationdiv a{
-            display: flex;
-            gap: 5px;
-            width: 90%;
-            border: 0px black solid;
-            text-decoration: none;
-            color: white;
-        word-spacing: -1.5px;
-        padding: 5px;
-    
-        }
-        .join-premium{
-            display: none;
-        }
-        
-        #citylocation{
-            font-size: 13px;
-        }
-        
-        .fa-caret-down{
-            position: relative;
-            left: 3px;
-            top: 1px;
-        }
-        /* review heading title */
-        .reviewtileheading{
-            border-bottom: 1px solid rgb(172, 169, 169);
-            width: 100%;
-            background-color: rgb(233, 229, 229);
-          
-
-        }
-        .reviewtileheading p{
-            padding: 10px;
-        }
-        #customerreviewnote{
-            display: none;
-        }
-    
-        .customerreviewsfirst header{
-            font-size: 10px;
-            padding: 15px 10px;
-        }
-
-        .reviewstar{
-        
-            display: flex;
-            gap: 5px;
-            padding: 10px 0px 10px 10px;
-        }
-        .reviewstar a{
-            position: relative;
-            left: 60px;
-            color: rgb(44, 143, 110);
-        }
-        .reviewstar .fa-star{
-            color: goldenrod;
-        }
-        .numberofrating p{
-            padding: 0px 10px;
-            color: rgb(66, 65, 63);
-
-        }
-        /* review range rating */
-        .reviewratingrange{
-            border: 0px solid rgb(100, 98, 98);
-            width: 92%;
-            margin: auto;
-        }
-        .reviewratingrange p{
-            color: rgb(51, 48, 48);
-        }
-        .reviewratingrange .divrange{
-            display: flex;
-            gap: 10px;
-            margin-top: 3%;
-           
-        }
-        .reviewratingrange .firstdivrange{
-            border: 0.2px solid rgb(83, 79, 79);
-            width: 70%;
-            border-radius: 5px;
-           
-        }
-        /* inside range */
-        #range{
-            border: 0px solid black;
-            width: 80%;
-            height: 100%;
-            background-color: goldenrod;
-            border-radius: 5px 0px 0px 5px;
-        }
-        #rangesecond{
-            border: 0px solid black;
-            width: 50%;
-            height: 100%;
-            background-color: goldenrod;
-            border-radius: 5px 0px 0px 5px;
-        }
-        #rangethird{
-            border: 0px solid black;
-            width: 30%;
-            height: 100%;
-            background-color: goldenrod;
-            border-radius: 5px 0px 0px 5px;
-
-        }
-        #rangefour{
-            border: 0px solid black;
-            width: 20%;
-            height: 100%;
-            background-color: goldenrod;
-            border-radius: 5px 0px 0px 5px;
-            
-        }
-        #rangefive{
-            border: 0px solid black;
-            width: 5%;
-            height: 100%;
-            background-color: goldenrod;
-            border-radius: 5px 0px 0px 5px;
-
-        }
-        .howreviewswork{
-            border: 0px solid black;
-            padding: 10px;
-        }
-        .howreviewswork label{
-            border: 0px solid black;
-            display: flex;
-           align-items: center;
-           color: rgb(34, 143, 101);
+            padding: 0px 10px 0px 10px;
       
-        }
-        .howreviewswork label:hover{
-            border: 2px solid rgb(219, 91, 6);
-            padding: 0px 0px 0px 10px;
-            width: 85%;
-            border-radius: 10px;
-        }
-        .howreviewswork label::before{
-            content:"" ;
-            border-width: 7px;
-            border-style:solid;
-            border-color:transparent transparent transparent rgb(20, 19, 19);
-            font-size: 0;
-            transition: transform 0.4s;
-            transform-origin: 5px center;
-        }
-        .reviewinfo{
-            border: 0px solid black;
-            margin-top: 10px;
-            background-color: rgb(250, 247, 247);
-            height: 0px;
-            overflow: hidden;
        
-          
         }
-        #trigger{
-            display: none;
-        }
-
-        input:checked ~ label::before{
-            transform: rotate(90deg);
-        }
-
-        input:checked ~ .reviewinfo{
-            height: auto;
-           
-        }
-        .customerreviewssecond{
-            display: none;
-        }
-
-        /* image review only */
-        .reviewwithimageonlyone{
-            border: 1px solid rgb(218, 213, 213);
-            width: 90%;
-            margin: auto;
-            border-radius: 10px;
-            box-shadow: 0px 0px 3px gray;
-            margin-bottom: 40px;
-         
-        }
-        .reviewwithimageonlyone h1{
-            padding: 15px 0px 8px 10px;
-            font-size: 20px;
-            color: rgb(41, 39, 39);
-        }
-     
-
-        .reviewwithimageonly{
-            border: 0px solid rgb(129, 127, 127);
-            width: 100%;
-            margin: -10px auto;
-            display: flex;
-            height: 100px;
-            border-radius: 10px;
+        .reviewdownloadimage ol li{
+            width: 120px;
+            border-radius: 15px;
+            height: 120px;
           
          
         }
-        .imagelistdivul{
-            border: 0px red solid;
-            width: 80%;
-            display: flex;
-            align-items:last baseline;
-            overflow: hidden;
-            margin: 10px;
-        }
-        .imagelistdivul ul{
-            display: flex;
-            margin-left: -6%;
-            height: 80px;
-            margin-bottom: 10px;
 
-        }
-        
-        .reviewwithimageonly li{
-            border: 0px solid black;
-            margin: 5px 5px 5px 0px;
-            width: 80px;
-       
- 
-        }
-        .reviewwithimageonly li img{
+        .reviewdownloadimage img{
             width: 100%;
+            border-radius: 15px;
             height: 100%;
         }
-        .arrowdive{
-            border: 0px green solid;
-            justify-content: center;
-            position: relative;
-            height: 30px;
-            position: relative;
-            top: 38%;
-            left: 5%;
-          
 
-        }
-        .arrowdive::before{
-  
-            content: "";
-            border-width: 10px;
-            border-style: solid;
-            border-color: transparent transparent transparent black;
-            font-size: 0;
-
-            
-        }
-
-        /* user revirew verfy page */
-        .reviewfiltersearch{
-            display: none;
-        }
-        .numberandrateofreviews{
-          color: rgb(53, 51, 51);
-            margin: auto;
-            margin-top: -20px;
-            font-size: 14px;
-            margin-bottom: 10px;
-                width: 90%;
-                border-bottom: 1px solid rgb(119, 117, 117);
-                padding-bottom: 10px;
-
-        }
-        .securemaindiv{
-            display: none;
-        }
-
-        /* verify users inform */
-        .reviewcustomerprofilediv{
-            border: 1px solid black;
-            width: 90%;
-            margin: auto;
-        }
+.advertise{
+    display: none;
 }
-@media screen and (max-width:430px){
-    *{
-        list-style: none;
-        margin: 0;
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-        body{
-            width: 100%;
-        }
-        main{
-            width: 100%;
-        }
-        .firstheader{
-            width: 100%;
-          padding: 10px 0 10px 0;
-            background-color: rgb(240, 125, 48);
-        }
-       
-        .navdiv{
-            background-color: rgb(240, 125, 48);  
-            display: flex;
-            justify-content:space-between;
-            padding: 10px 10px 0px 10px;
-            font-size: 20px;
-        }
-        .secondheader{
-            display: none;
-        }
-        
-        .sectiontwonavbar{
-            display: flex;
-            gap: 10px;
-            flex-direction: row;
-            font-family:Arial, Helvetica, sans-serif;
-          
-        }
-        
-        #addcartvalue{
-            position: relative;
-            bottom: 10px;
-            right: 10px;
-            background-color: rgb(102, 50, 7);
-            color: white;
-            padding: 2px 5px 2px 5px;
-            font-size: 10px;
-            border-radius: 5px;
-        }
-        .navdiv a{
-            text-decoration: none;
-            color: white;
-        }
-        #signinglinkdiv{
-            font-size: 13px;
-        }
-    
-        .searchbar{
-            display: flex;
-        }
-        .searchbar .fa-magnifying-glass{
-            display: flex;
-            align-items: center;
-            border: 2px solid rgb(67, 110, 129);
-            position: relative;
-            right: 37px;
-            padding: 3px;
-            border-radius: 5px;
-            color: rgb(240, 112, 8);
-            background-color: rgb(67, 110, 129);
-            
-          
-    
-        }
-        
-        #secondheaderdiv-second,
-        .siginginfodiv,
-        .thirdheader,
-        .locationdiv,
-        #optionselectdive ,
-         #countryselect ,
-          .logodive{
-            display: none;
-        }
-        .searchitembar{
-            display: flex;
-            width: 80%;
-            padding: 9px;
-        margin: auto;
-        border: none;
-        border-radius: 6px;
-        font-size: 12px;
-        position: relative;
-       left: 12px;
-        }
-    
-        .searchbar{
-            width: 100%;
-            border: 0px solid black;
-        }
-        .secondheader .secondheaderdiv{
-            display: flex;
-            gap: 22px;
-            cursor: pointer; 
-            overflow: auto;
-            white-space: nowrap;
-            width: 96.8%;
-            padding: 10px 7px 10px 5px;
-            background-color: rgb(67, 110, 129);
-            color:white;
-            font-size: 12px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-        .secondheader .secondheaderdiv li{
-            list-style: none;
-           padding: 4px;
-            
-        }
-        /* location update with signing */
-        .locationupdate {
-            background-color:rgb(67, 110, 129);
-            width: 100%;
-            
-        }
-        .firstlocationdiv{
-            display: flex;
-            align-items: center;
-            margin:  auto;
-            font-family: Arial, Helvetica, sans-serif;
-         width: 98%;
-            padding: 5px 0px 5px 0px;
-            border-top: 0px solid rgb(240, 144, 99); 
-        }
-        .firstlocationdiv a{
-            display: flex;
-            gap: 5px;
-            width: 90%;
-            border: 0px black solid;
-            text-decoration: none;
-            color: white;
-        word-spacing: -1.5px;
-        padding: 5px;
-    
-        }
-        .join-premium{
-            display: none;
-        }
-        
-        #citylocation{
-            font-size: 13px;
-        }
-        
-        .fa-caret-down{
-            position: relative;
-            left: 3px;
-            top: 1px;
-        }
-        /* review heading title */
-        .reviewtileheading{
-            border-bottom: 1px solid rgb(172, 169, 169);
-            width: 100%;
-            background-color: rgb(233, 229, 229);
-          
 
-        }
-        .reviewtileheading p{
-            padding: 10px;
-        }
-        #customerreviewnote{
-            display: none;
-        }
-    
-        .customerreviewsfirst header{
-            font-size: 10px;
-            padding: 15px 10px;
-        }
-
-        .reviewstar{
-        
-            display: flex;
-            gap: 5px;
-            padding: 10px 0px 10px 10px;
-        }
-        .reviewstar a{
-            position: relative;
-            left: 60px;
-            color: rgb(44, 143, 110);
-        }
-        .reviewstar .fa-star{
-            color: goldenrod;
-        }
-        .numberofrating p{
-            padding: 0px 10px;
-            color: rgb(66, 65, 63);
-
-        }
-        /* review range rating */
-        .reviewratingrange{
-            border: 0px solid rgb(100, 98, 98);
-            width: 92%;
-            margin: auto;
-        }
-        .reviewratingrange p{
-            color: rgb(51, 48, 48);
-        }
-        .reviewratingrange .divrange{
-            display: flex;
-            gap: 10px;
-            margin-top: 3%;
-           
-        }
-        .reviewratingrange .firstdivrange{
-            border: 0.2px solid rgb(83, 79, 79);
-            width: 70%;
-            border-radius: 5px;
-           
-        }
-        /* inside range */
-        #range{
-            border: 0px solid black;
-            width: 80%;
-            height: 100%;
-            background-color: goldenrod;
-            border-radius: 5px 0px 0px 5px;
-        }
-        #rangesecond{
-            border: 0px solid black;
-            width: 50%;
-            height: 100%;
-            background-color: goldenrod;
-            border-radius: 5px 0px 0px 5px;
-        }
-        #rangethird{
-            border: 0px solid black;
-            width: 30%;
-            height: 100%;
-            background-color: goldenrod;
-            border-radius: 5px 0px 0px 5px;
-
-        }
-        #rangefour{
-            border: 0px solid black;
-            width: 20%;
-            height: 100%;
-            background-color: goldenrod;
-            border-radius: 5px 0px 0px 5px;
-            
-        }
-        #rangefive{
-            border: 0px solid black;
-            width: 5%;
-            height: 100%;
-            background-color: goldenrod;
-            border-radius: 5px 0px 0px 5px;
-
-        }
-        .howreviewswork{
-            border: 0px solid black;
-            padding: 10px;
-        }
-        .howreviewswork label{
-            border: 0px solid black;
-            display: flex;
-           align-items: center;
-           color: rgb(34, 143, 101);
-      
-        }
-        .howreviewswork label:hover{
-            border: 2px solid rgb(219, 91, 6);
-            padding: 0px 0px 0px 10px;
-            width: 85%;
-            border-radius: 10px;
-        }
-        .howreviewswork label::before{
-            content:"" ;
-            border-width: 7px;
-            border-style:solid;
-            border-color:transparent transparent transparent rgb(20, 19, 19);
-            font-size: 0;
-            transition: transform 0.4s;
-            transform-origin: 5px center;
-        }
-        .reviewinfo{
-            border: 0px solid black;
-            margin-top: 10px;
-            background-color: rgb(250, 247, 247);
-            height: 0px;
-            overflow: hidden;
-       
-          
-        }
-        #trigger{
-            display: none;
-        }
-
-        input:checked ~ label::before{
-            transform: rotate(90deg);
-        }
-
-        input:checked ~ .reviewinfo{
-            height: auto;
-           
-        }
-        .customerreviewssecond{
-            display: none;
-        }
-
-        /* image review only */
-        .reviewwithimageonlyone{
-            border: 1px solid rgb(218, 213, 213);
-            width: 90%;
-            margin: auto;
-            border-radius: 10px;
-            box-shadow: 0px 0px 3px gray;
-            margin-bottom: 40px;
-         
-        }
-        .reviewwithimageonlyone h1{
-            padding: 15px 0px 8px 10px;
-            font-size: 20px;
-            color: rgb(41, 39, 39);
-        }
-     
-
-        .reviewwithimageonly{
-            border: 0px solid rgb(129, 127, 127);
-            width: 100%;
-            margin: -10px auto;
-            display: flex;
-            height: 100px;
-            border-radius: 10px;
-          
-         
-        }
-        .imagelistdivul{
-            border: 0px red solid;
-            width: 80%;
-            display: flex;
-            align-items:last baseline;
-            overflow: hidden;
-            margin: 10px;
-        }
-        .imagelistdivul ul{
-            display: flex;
-            margin-left: -6%;
-            height: 80px;
-            margin-bottom: 10px;
-
-        }
-        
-        .reviewwithimageonly li{
-            border: 0px solid black;
-            margin: 5px 5px 5px 0px;
-            width: 80px;
-       
- 
-        }
-        .reviewwithimageonly li img{
-            width: 100%;
-            height: 100%;
-        }
-        .arrowdive{
-            border: 0px green solid;
-            justify-content: center;
-            position: relative;
-            height: 30px;
-            position: relative;
-            top: 38%;
-            left: 5%;
-          
-
-        }
-        .arrowdive::before{
-  
-            content: "";
-            border-width: 10px;
-            border-style: solid;
-            border-color: transparent transparent transparent black;
-            font-size: 0;
-
-            
-        }
-
-        /* user revirew verfy page */
-        .reviewfiltersearch{
-            display: none;
-        }
-        .numberandrateofreviews{
-          color: rgb(53, 51, 51);
-            margin: auto;
-            margin-top: -20px;
-            font-size: 14px;
-            margin-bottom: 10px;
-                width: 90%;
-                border-bottom: 1px solid rgb(119, 117, 117);
-                padding-bottom: 10px;
-
-        }
-        .securemaindiv{
-            display: none;
-        }
-
-        /* verify users inform */
-        .reviewcustomerprofilediv{
-            border: 1px solid black;
-            width: 90%;
-            margin: auto;
-        }
+.reviewtextareadiv{
+    border: 1px solid red;
 }
+
+
+
