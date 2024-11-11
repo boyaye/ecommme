@@ -507,12 +507,12 @@
 }
 
 .reviewtextareadiv{
-    border: 1px solid red;
+    border: 0px solid red;
 }
 
 .alllistitemdive{
     border: 0px solid green;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .reportandhelplink{
