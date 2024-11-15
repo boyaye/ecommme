@@ -453,7 +453,7 @@ width: 10%;
 
         /* verify users inform */
         .reviewcustomerprofilediv{
-            border: 1px solid black;
+            border: 0px solid black;
             width: 90%;
             margin: auto;
         }
@@ -616,4 +616,31 @@ color: rgb(221, 76, 9);
 .satisfybutton #satisfy-customer:hover{
     color: rgb(233, 110, 9);
     border-color: rgb(58, 55, 55);
+}
+
+.reviewtextareatext{
+    --line-height:1.2;
+    --max-line:3;
+    max-height: calc(var(--max-line) * 1em * var(--line-height));
+    line-height: var(--line-height);
+    overflow: hidden;
+  position: relative;
+ 
+}
+
+.forrotate{
+appearance:none ;
+}
+.forrotate::before{
+    content: "See more";
+    color: rgb(82, 165, 137);
+  
+}
+.forrotate:checked:before{
+    content: "See less";
+    color: rgb(82, 165, 137);
+   
+}
+.reviewtextareatext:has(+ .forrotate:checked){
+    max-height: none;
 }
