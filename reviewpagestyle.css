@@ -175,18 +175,21 @@
             padding: 15px 10px;
         }
 
-        .reviewstar{
-        
+        .reviewstar{ 
+            position: relative;  
+        width: 100%;
             display: flex;
-            gap: 5px;
+            gap: 18%;
             padding: 10px 0px 10px 10px;
         }
         .reviewstar a{
-            position: relative;
-            left: 60px;
+        position: absolute;
             color: rgb(44, 143, 110);
+            right: 5%;
+            
         }
         .reviewstar .fa-star{
+            display: inline-block;
             color: goldenrod;
         }
         .numberofrating p{
@@ -194,10 +197,20 @@
             color: rgb(66, 65, 63);
 
         }
+
+        .reviewiandstarfive{
+            display: flex;
+            width: 50%;
+        }
+        #ratingsnumber{
+            position: relative;
+            left: 3%;
+        }
+    
         /* review range rating */
         .reviewratingrange{
             border: 0px solid rgb(100, 98, 98);
-            width: 92%;
+      width: 100%;
             margin: auto;
         }
         .reviewratingrange p{
@@ -205,15 +218,30 @@
         }
         .reviewratingrange .divrange{
             display: flex;
-            gap: 10px;
             margin-top: 3%;
+            border: 0px solid red;
+            gap: 3%;
+        
+        
            
         }
+        .firstrangecenter{
+            position: relative;
+            border: 0px solid green;
+      width: 95%;
+      margin: auto;
+        }
         .reviewratingrange .firstdivrange{
-            border: 0.2px solid rgb(83, 79, 79);
-            width: 70%;
+            border: 0.2px solid rgb(170, 166, 166);
+            width: 73%;
             border-radius: 5px;
            
+        }
+        .ratingpercentage{
+border: 0px solid black;
+width: 10%;
+            position: absolute;
+            right: 0px;
         }
         /* inside range */
         #range{
