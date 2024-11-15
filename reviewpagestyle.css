@@ -634,11 +634,19 @@ appearance:none ;
 .forrotate::before{
     content: "See more";
     color: rgb(82, 165, 137);
+    width: 200px;
+    display: block;
+    font-size: 16px;
+    padding: 2px;
   
 }
 .forrotate:checked:before{
     content: "See less";
-    color: rgb(82, 165, 137);
+    color: rgb(226, 97, 10);
+    font-size: 16px;
+    padding: 2px;
+    width: 200px;
+    display: block;
    
 }
 .reviewtextareatext:has(+ .forrotate:checked){
